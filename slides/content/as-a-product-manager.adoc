@@ -1,0 +1,8 @@
+[.topic]
+== As a *Product Manager*
+
+[.topic]
+== As a Product Manager
+
+Inlcude asciidoctor into eXo Platform
+@ Devoxx France hackergarten

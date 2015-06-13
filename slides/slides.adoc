@@ -1,1 +1,27 @@
-include::devnation2014/slides.adoc[]
+= AsciiDoc: Create & Publish everywhere from anywhere
+Maxime GREAU <http://mgreau.com[@mgreau]>
+v1.0, June 13, 2015
+include::conf/_settings.adoc[]
+
+//me
+include::content/about-me.adoc[]
+
+//asciidoctor
+include::content/asciidoctor.adoc[]
+
+//as a writer
+include::content/as-a-writer.adoc[]
+
+//as a developer
+include::content/as-a-developer.adoc[]
+
+//as a speaker
+include::content/as-a-speaker.adoc[]
+
+//as a Product Manager
+include::content/as-a-product-manager.adoc[]
+
+//as a Team you want to publish blog post
+include::content/as-a-team.adoc[]
+
+include::content/last.adoc[]

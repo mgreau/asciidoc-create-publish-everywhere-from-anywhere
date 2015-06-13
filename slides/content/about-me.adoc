@@ -1,6 +1,6 @@
 [[slide2]]
 [.topic]
-== About Moi
+== About Me
 
 [.incremental]
 * Software Factory Manager #eXo Platform
@@ -30,8 +30,6 @@ SLIDE 2 : Overview
 
 * I work for the French Ministry for the Economy and Finance in France.
 * I'm a Book Author, I wrote a book about Apache Maven 3.
-* I'm currently reviewing a book about WildFly and Java EE 7.
-* Follow this conference live via twitter: use the hashtag #adeditor.
-* I have already posted via Twitter 2 URLs for the demonstration.
+* I reviewed a book about WildFly and Java EE 7.
 
 ====

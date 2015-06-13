@@ -9,7 +9,7 @@
 :title-off: title="", caption=""
 :backend: dzslides
 :dzslides-aspect: 16-9
-:dzslides-style: ../../../assets/styles/devnation2014
+:dzslides-style: ../../../assets/styles/devnation2014/devnation
 :dzslides-transition: fade
 :dzslides-fonts: family=Neuton:400,700,800,400italic|Cedarville+Cursive
 :dzslides-highlight: asciidoctor

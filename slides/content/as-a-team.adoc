@@ -1,0 +1,9 @@
+[.intro.topic]
+== As a *Team*
+
+
+[.topic]
+== As a Team
+
+* Blog : HubPress
+* Collaborate: adoc-editor

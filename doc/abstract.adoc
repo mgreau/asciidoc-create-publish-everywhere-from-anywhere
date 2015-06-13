@@ -1,7 +1,11 @@
 = Abstract text for DevNation WebSite
 
-== AsciiDoc: Create and Publish
+== AsciiDoc: Create and Publish Everywhere from Anywhere
 
+* As a writer, like a developer,
+* As a writer, like a developer,
+* As a Team you want to collaborate in realtime
+* As a Team you want to publish blog post
 
 
 == Abstract / Videos to help

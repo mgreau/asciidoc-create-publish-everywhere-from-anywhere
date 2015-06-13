@@ -1,0 +1,18 @@
+[.ending]
+== Thank You
+
+http://github.com/mgreau/[AsciiDoc: Create & Publish Everywhere from Anywhere]
+
+[role="footer"]
+Maxime Gréau - @mgreau
+
+[NOTE.speaker]
+====
+----
+SLIDE 41 : Thank YOU
+----
+* Thank you. I hope that this presentation was great.
+* We have a couple of minutes, are there any questions ?
+=======
+
+====

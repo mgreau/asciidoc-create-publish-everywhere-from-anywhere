@@ -1,0 +1,10 @@
+[.intro.topic]
+== As a *speaker*
+
+
+[.topic]
+== As a speaker
+
+* DZslides
+* RevealJS
+* Docker light container + Asciidoctor + dzslides

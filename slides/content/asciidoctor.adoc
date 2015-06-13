@@ -1,0 +1,41 @@
+
+[.topic]
+== &#160;
+
+[.statement]
+_AsciiDoc_ is... +
+lightweight *markup* +
+[.push2]#publishing *toolchain*#
+
+image::balloons.jpg[balloons, 170,role="pull-right"]
+
+
+[NOTE.speaker]
+====
+----
+SLIDE 8 : AsciiDoc
+----
+* So What is AsciiDoc?
+
+* AsciiDoc is two things:
+** Plain-text format for notes, articles, documentation, books, e-books, etc.
+** Text processor and toolchain for translating AsciiDoc documents into various formats like PDF, HTML and others.
+====
+
+[.topic.source]
+== AsciiDoc: *Lightweight markup*
+
+[source, asciidoc]
+----
+= Document Title2
+Doc Writer <doc@asciidoc.org>
+v1.0, 2013-01-01: Initial version
+
+http://asciidoc.org[AsciiDoc] is a lightweight markup language.
+
+This is the optional preamble (an untitled section body), useful for
+writing simple sectionless documents consisting only of a preamble.
+
+NOTE: The abstract, preface, appendix, bibliography, glossary and
+index section titles are significant (_specialsections_).
+----

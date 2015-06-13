@@ -1,12 +1,11 @@
 = Transcript
 
-== DevNation Boston 2015
-
-
-=== About me
+== About me
 
 * my experience
 * me and Asciidoctor
+
+== Asciidoctor
 
 === Today you know asciidoctor
 
@@ -17,15 +16,15 @@
 
 === Big picture
 
-Asciidoc
+AsciiDoc
 asciidoctor
 
 
 === Syntax examples
 
 
-=== Doc == Code
-==== Like a developer, As a writer you want efficient tools!
+=== Doc  Code
+==== As a writer, like a developer, you want efficient tools!
 
 * IDE Eclipse (demo1)
 * Atom Editor (demo2)
@@ -33,7 +32,7 @@ asciidoctor
 * Chrome/Firefox
 * Brackets
 
-==== As a writer, Like a developer you want container
+==== As a writer, like a developer you want container to use Asciidoctor
 
 * Asciidoctor and Docker
 ** demo official images
@@ -44,7 +43,9 @@ asciidoctor
 * maven plugin
 * gradle plugin
 
-==== As a Technical Evangelist you want to produce slides
+==== As a Speaker you want to produce slides
+
+* light container (55Mb) to produce HTML5 slides from AsciiDoc
 
 ==== As a product manager, you want to easily integrate asciidoctor in your product
 
@@ -57,7 +58,7 @@ asciidoctor
 
 === As a team you want to blog
 
-* 
+*
 
 === As a team you want to collaborate
 

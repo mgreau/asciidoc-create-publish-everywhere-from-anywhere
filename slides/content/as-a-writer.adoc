@@ -1,0 +1,28 @@
+[.intro.topic]
+== As a *Writer*, &#10; like Developers...
+
+[NOTE.speaker]
+====
+----
+As a writer
+----
+As a writer, you want tools (like developers) to be efficient
+* IDE Eclipse or IntellIJ (demo)
+* Atom Editor (demo)
+* GitHub images
+* Chrome/Firefox
+* Brackets
+====
+
+
+[.topic]
+== As a writer
+
+Like developers, you want
+
+* IDE Eclipse or IntellIJ (demo)
+* Atom Editor (demo)
+* GitHub images
+* Chrome/Firefox
+* Brackets
+* Like a developer you want container to use Asciidoctor
