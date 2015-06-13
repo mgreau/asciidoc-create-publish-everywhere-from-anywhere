@@ -1,0 +1,968 @@
+= test
+include::_settings.adoc[]
+
+
+
+[[slide3]]
+[.topic.logos]
+== When _WebSocket_ met *Asciidoctor*
+
+       .o.                           o8o   o8o  oooooooooo.
+      .888.                          `"'   `"'  `888'   `Y8b
+     .8"888.      .oooo.o  .ooooo.  oooo  oooo   888      888  .ooooo.   .ooooo.
+    .8' `888.    d88(  "8 d88' `"Y8 `888  `888   888      888 d88' `88b d88' `"Y8
+   .88ooo8888.   `"Y88b.  888        888   888   888      888 888   888 888
+  .8'     `888.  o.  )88b 888   .o8  888   888   888     d88' 888   888 888   .o8
+ o88o     o8888o 8""888P' `Y8bod8P' o888o o888o o888bood8P'   `Y8bod8P' `Y8bod8P'
+
+[NOTE.speaker]
+====
+----
+SLIDE 3 : Bench of technologies
+----
+* Here are all the technologies that this project uses :
+** AsciiDoc, Asciidoctor, WebSocket Java EE 7, HTML5, JavaScript and Angular.
+* This application is deployed to the Cloud on WildFly 8 with OpenShift.
+====
+
+[[slide4]]
+[.topic.recap]
+== Quick Poll
+
+image::email_only.jpg[email, 350]
+
+* Who _sent an email today_?
+
+[NOTE.speaker]
+====
+----
+SLIDE 4 : Poll
+----
+* OK, so a quick poll. It's 5pm. Who sent an email today?
+* Show of hands please!
+* OK there is a hundred emails.
+====
+
+[[slide5]]
+[.topic.recap]
+== Quick Poll
+
+image::buried_in_paperwork.jpg[buried, 400]
+
+* Who _wrote technical documentation_ in the past two days?
+
+[NOTE.speaker]
+====
+----
+SLIDE 5 : Poll
+----
+* OK, another poll.
+* Who wrote technical documentation in the past two days? You put your hands up too.
+* There is five out of a hundred (5/100).
+====
+
+
+[[slide6]]
+[.topic.intro]
+== ``Writing documentation has to be _as easy as_ writing email!''
+
+
+[NOTE.speaker]
+====
+----
+SLIDE 6 : Easy
+----
+* HERE WE ARE!
+* Writing e-mail is easy. We do it all the time. Every day, we respond to dozens of e-mail
+and social media messages with Twitter, Facebook....
+* Writing documentation has to be as easy as writing email!
+* How can we write technical documentation in an easy way?
+====
+
+[[slide7]]
+[.intro.topic]
+== Your solution is *AsciiDoc*
+
+[NOTE.speaker]
+====
+----
+SLIDE 7 : AsciiDoc
+----
+* AsciiDoc was created twelve years ago.
+* It was written in Python 2.
+====
+
+[[slide8]]
+[.topic]
+== &#160;
+
+[.statement]
+_AsciiDoc_ is... +
+lightweight *markup* +
+[.push2]#publishing *toolchain*#
+
+image::balloons.jpg[balloons, 170,role="pull-right"]
+
+
+[NOTE.speaker]
+====
+----
+SLIDE 8 : AsciiDoc
+----
+* So What is AsciiDoc?
+
+* AsciiDoc is two things:
+** Plain-text format for notes, articles, documentation, books, e-books, etc.
+** Text processor and toolchain for translating AsciiDoc documents into various formats like PDF, HTML and others.
+====
+
+[[slide9]]
+[.topic.source]
+== AsciiDoc: *Lightweight markup*
+
+[source, asciidoc]
+----
+= Document Title2
+Doc Writer <doc@asciidoc.org>
+v1.0, 2013-01-01: Initial version
+
+http://asciidoc.org[AsciiDoc] is a lightweight markup language.
+
+This is the optional preamble (an untitled section body), useful for
+writing simple sectionless documents consisting only of a preamble.
+
+NOTE: The abstract, preface, appendix, bibliography, glossary and
+index section titles are significant (_specialsections_).
+
+== First section
+
+Document sections start at *level 1* and can nest four levels deep.
+
+* Item 1
+* Item 2
+----
+
+[NOTE]
+[role="speaker"]
+====
+----
+SLIDE 9 : example
+----
+* so here is an example.
+* this is just plain text
+* you see a couple of annotations
+* the first thing is just the title
+* then we have a paragraph
+* then we have an other section
+* AsciiDoc gets us back to what’s important: *WRITING.*
+
+* It’s a syntax that a human can actually edit and read.
+====
+
+
+[[slide10]]
+[.topic]
+== &#160;
+
+"Use _AsciiDoc_ for document markup. It's actually _readable_ by humans, _easier to parse_ and more flexible than XML."
+-- Linus Torvalds
+
+[NOTE.speaker]
+====
+----
+SLIDE 10 : Linus Torvalds
+----
+* Why do you need to use AsciiDoc for documentation... BECAUSE Linus Torvalds said it.
+
+* So seriously, AsciiDoc works because:
+** It’s readable
+** It’s concise
+** It’s comprehensive
+** It’s extensible
+** It produces beautiful output (HTML, PDF, EPUB and more)
+
+* Regarding the other office tools, AsciiDoc gives you the ability to
+follow almost the same workflow that you have when writing code:
+** refactor the documentation
+** do a simple diff on documentation
+
+* It looks like code, you can check it on the source code revising control.
+
+====
+
+[[slide11]]
+[.intro.topic]
+== What's *Asciidoctor*?
+
+[NOTE.speaker]
+====
+----
+SLIDE 11 : Asciidoctor
+----
+* Remember what I said earlier.
+* AsciiDoc is not really new.
+* It's Python based but there is a new tools since 2012, which is ruby based.
+* There are ways to run it inside the JVM. This is Asciidoctor.
+====
+
+[[slide12]]
+[.topic]
+== &#160;
+
+[.statement]
+*Asciidoctor* +
+A modern, open source implementation of AsciiDoc in [.ruby]#Ruby#
+
+[NOTE.speaker]
+====
+----
+SLIDE 12 : Asciidoctor
+----
+* Asciidoctor is a modern open-source implementation of AsciiDoc, written in Ruby.
+* The idea is :
+** we have a AsciiDoc document
+** we have an AsciiDoc processor
+** we put the document to the processor
+** and VOILA => it comes out as HTML
+====
+
+
+[[slide13]]
+[.topic]
+== Output *formats*
+
+[.incremental]
+* HTML5
+* DocBook 4.5 & 5.0
+* PDF [detail]#fopub, prawn#
+* E-book [detail]#EPUB 3, KF8/MOBI#
+* Slides [detail]#deck.js, dzslides, reveal.js#
+* Man pages
+* *Custom*
+
+[NOTE.speaker]
+====
+----
+SLIDE 13 : Output
+----
+* So what can Asciidoctor make?
+* Asciidoctor can do HTML5, DocBook, PDF, EPUB, and MOBI
+* Asciidoctor can do slides like this deck, as well as man pages
+* and most important "anything you want"
+** you can plug in your own backend so the HTML that you get, is not the HTML that you have to have
+**  Asciidoctor built a document Abstract Syntax Tree (AST), not too different to our source code (when we have classes and methods)
+** so you have the ability to manipulate the document and you can create whatever you want
+====
+
+[[slide14]]
+[.topic]
+== How do I *use* Asciidoctor?
+
+[.incremental]
+* Ruby [detail]#asciidoctor, asciidoctor-pdf#
+* Java [detail]#asciidoctorj, asciidoctor-maven-plugin#
+* Groovy [detail]#asciidoctor-gradle-plugin#
+* Javascript [detail]#asciidoctor.js, Chrome/Firefox extension#
+
+[NOTE.speaker]
+====
+----
+SLIDE 14 : Polyglot
+----
+* The main project is Asciidoctor, implemented in Ruby.
+** asciidoctor-pdf is a native PDF renderer for AsciiDoc built with Asciidoctor and prawn. AsciiDoc direct to PDF.
+* So, OK, it's Ruby, but Ruby runs on the JVM thanks to JRuby!!
+** There is another project called AsciidoctorJ which is a wrapper on top of plain Asciidoctor using JRuby
+so you do not need Ruby to run Asciidoctor, you just need Java
+** And from there we can construct any other tools based on the JVM that consumes AsciidoctorJ and in this case we have a maven plugin and a gradle plugin
+* You can also run Asciidoctor through JavaScript, Ruby has a transpiler call Opal. Opal transforms Ruby code into Javascript code so you can run Asciidoctor on the browser or anywhere that Javascript can be run.
+** There is also a Chrome extension and a Firefox addon
+* So we have a POLYGLOT environment here
+====
+
+
+[[slide15]]
+[.topic]
+== *Who* is using Asciidoctor?
+
+* Frameworks [detail]#Spring, Infinispan, Neo4j#
+* Standards [detail]#CDI, Java EE Labs#
+* Publishers [detail]#O'Reilly, NFJS#
+* Repositories [detail]#GitHub, Bintray#
+* Languages [detail]#Groovy#
+* and more...
+
+[NOTE.speaker]
+====
+----
+SLIDE 15 : Who uses it
+----
+* So Asciidoctor is a really new project but it's already much used, in fact we have
+** some frameworks which generates their technical documentation with Asciidoctor like Spring, Infinispan and others
+** There is already 1 JSR which used Asciidoctor : CDI specification
+** there are also some publisher like O'Reilly (enterprise Web Book)
+** some repositories like GitHub, in fact you can write your doc file like README with AsciiDoc and you will see the rendered HTML
+====
+
+
+[[slide16]]
+[.topic.recap]
+== Demo time
+
+Asciidoctor via asciidoctor.js
+
+image::ad-editor-offline.png[Offline mode feature, 500, link="{imagesdir}ad-editor-offline.png"]
+
+[NOTE.speaker]
+====
+----
+SLIDE 16 : DEMO asciidoctor.js
+----
+* Now let's try a demo
+* Local : prepare a server
+* DEMO :
+. Present the ad-editor
+.. on the left side, you have the AsciiDoc editor based on angular-ui-ace-editor
+.. on the top of the screen, you have the navbar which tells you if you are working online or offline
+.. in this case we are on offline mode since we just want to use Asciidoctor through asciidoctor.js, so we don't need the server to be started.
+.. on the right side, we have the HTML5 rendered view, so here is the HTML5 generated by Opal.js and asciidoctor.js
+. so let's go to the demo
+.. do a drag and drop (HTML5) with the demo1.adoc
+.. render it with Alt+R
+.. change mode to "on change"
+.. add a title before the first section
+.. copy/paste source code to show highlight
+.. talk about HTML5 features like storage with indexedDB, drag and drop
+
+CONCLUDE:
+
+* OK that was the demo in order to show how Asciidoctor works with asciidoctor.js and some HTML5 features like drag and drop and storage with IndexedDB.
+
+====
+
+[[slide17]]
+[.topic]
+== Asciidoctor *resources*
+
+* Website [detail]#http://asciidoctor.org[asciidoctor.org] (blog, user manual, writing guide...)#
+* Github [detail]#http://github.com/asciidoctor[github.com/asciidoctor]#
+* Forum [detail]#http://discuss.asciidoctor.org[discuss.asciidoctor.org]#
+* Twitter [detail]#@asciidoctor @mojavelinux @alexsotob @lightguardjp @carbonfray#
+
+[NOTE.speaker]
+====
+----
+SLIDE 17 : Resources
+----
+* I conclude this section with list of resources if you want to know more about Asciidoctor.
+** so there is the website asciidoctor.org where you can find all the documentation for Asciidoctor with a very complete user-manual.
+** You will find all sources on GitHub for Asciidoctor, asciidoctor.js, AsciidoctorJ and so on
+** there is a forum and you can follow, on twitter, the guys of the Asciidoctor community project if you want to know more about it.
+====
+
+[[slide18]]
+[.intro.topic]
+== Java EE 7 *WebSocket*
+
+[NOTE.speaker]
+====
+----
+SLIDE 18 : Second part
+----
+* Now we are getting into the second part of this presentation : Java EE 7 and WebSocket.
+
+* The *Java Platform Enterprise Edition* was released in Version 7 (Java EE 7) in *June 2013*.
+* *Java EE 7* always proposes to simplify the work of the developer.
+* embraces *HTML5* (WebSocket API, JSON-P API, JAX-RS)
+* provide an *even better productivity* to developer (JMS)
+* meeting *enterprise demands* (Batch API, Concurrency Utilities)
+====
+
+[[slide19]]
+[.topic]
+== Java EE 7: *Overview*
+
+image::javaee_overview.png[JavaEE7, 610]
+
+[NOTE.speaker]
+====
+----
+SLIDE 19 : JavaEE7
+----
+* Java EE 7 is :
+**  4 newest specifications : *+Java API for WebSocket 1.0+*, *+Java API for JSON Processing 1.0+* , *+Batch Applications 1.0+* and *+Concurrency Utilities for Java EE 1.0+*
+* 3 specifications with major updates : *+JMS 2.0+*, *+JAX-RS 2.0+* and *+EL 3.0+*
+* and 6 specifications with minor updates : *+JPA 2.1+*, *+Servlet 3.1+*, *+EJB 3.2+*, *+CDI 1.1+*, *+JSF 2.2+* and *+Bean Validation 1.1+*
+====
+
+[[slide20]]
+[.topic]
+== HTTP
+
+* half-duplex
+* verbose
+* hack for server push
+
+[NOTE.speaker]
+====
+----
+SLIDE 20 : HTTP
+----
+* HTTP is the standard protocol for the Web, it's very effective for a lot of use cases but there are some basics issues with HTTP:
+
+* HTTP is a Half-duplex protocol :
+** the client initiate  : the Client send a request to the server, server processes the request, it generates the response and send it back to the client
+** there is no way for the server to say : "hey I have some information that I want to send to you"
+* HTTP is a verbose protocol:
+** even if you want to send a simple hello world message ;
+** the problem is that those request/response are typically generated by browser and app server, and they want to send a whole bunch of information
+* server push : server has no way to tell to client  "I have some data and I want to push it to you"
+
+* HTTP is well but there is some limitations.
+* So for interactive Web Site, HTTP is  inefficient, wasteful and complex
+====
+
+
+[[slide21]]
+[.topic]
+== &#160;
+
+"WebSocket is a _full-duplex_ _bi-directional_ protocol, over a _Single TCP Connection_."
+-- Arun Gupta, Red Hat
+
+[NOTE.speaker]
+====
+----
+SLIDE 21 : Definition
+----
+* A very simple one line definition for WebSocket is : "...."
+* it's full duplex : because client can send to server and server to client independent of each other
+* it's bi-directional : that means a client can send a message to server and a server can send a message to client, so both ways, that's bidirectionnal protocol
+* the best part is : it is over a single TCP connection
+** for every HTTP connection, there is a new TCP connection that is being initiated , yes there is HTTP keep alive and things like that but application can not rely on keep-alive..
+
+* HTTP specification by itself define how you can upgrade a protocol.
+* it says you have a HTTP protocol, you send me a couple of headers as part of the request then I will upgraded to other HTTP protocol or other protocol
+
+* We will use this HTTP upgrade mechanism and upgrade from HTTP to WebSocket.
+but once the HTTP connection and underline TCP connection are upgraded to a websocket is like opening a socket over the Internet. We can exchange infinite amount of messages until one of them say "I'm done, I don't want to talk anymore"
+====
+
+[[slide22]]
+[.topic]
+== WebSocket
+
+* WebSocket Protocol [detail]#IETF - RFC6455#
+* Javascript API [detail]#W3C#
+* Java API for WebSocket [detail]#JSR 356#
+
+[NOTE.speaker]
+====
+----
+SLIDE 22 : 3 things
+----
+When we talk about WebSocket, there are 2 concepts we talk about
+- one is a protocol, the protocol by itself means how does under wire format look like.
+In WebSocket you have a protocol that is define by RFC 6455, this is about a three years old protocol now, you can search for the document and that will tell you exactly how the protocol looks like.
+
+it define exactly how the frames look like.
+
+It's a very lean protocol, there is only a 2 byte of overhead basically says : it's text data or binary data AND then it says its a control frame or a data frame. so it's not a lot of overhead.
+
+then It also defines how the upgrade mechanism is gonna look like.
+
+- when you are building a WebSocket application, you are most likely building a web application, so W3C has define a Javascript API
+
+====
+
+[[slide23]]
+[.topic]
+== WebSocket Protocol lifecycle
+
+image::devnation_websocket_protocol.png[lifecycle, 460, role="middle"]
+
+[NOTE.speaker]
+====
+----
+SLIDE 23 : Lifecycle
+----
+As shown in the diagram below, the *WebSocket protocol works in two phases* named :
+
+. *+handshake+ (open and close)*
+. *+data transfer+*
+====
+
+[[slide24]]
+[.topic.source]
+== WebSocket Protocol - Handshake
+
+Request
+[source, text]
+----
+GET /ad-editor/adoc/1234 HTTP/1.1     # <1>
+Host: wildfly-mgreau.rhcloud.com:8000  # <2>
+Upgrade: websocket  # <3>
+Connection: Upgrade # <4>
+Origin: http://wildfly-mgreau.rhcloud.com
+Sec-WebSocket-Key:0EK7XmpTZL341oOh7x1cDw==
+Sec-WebSocket-Version:13
+----
+
+*Response*
+[source, text]
+----
+HTTP/1.1 101 Switching Protocols
+Connection:Upgrade
+Sec-WebSocket-Accept:SuQ5/hh0kStSr6oIzDG6gRfTx2I=
+Upgrade:websocket
+----
+
+[NOTE.speaker]
+====
+----
+SLIDE 24 : Handshake
+----
+
+====
+
+[[slide25]]
+[.topic.source]
+== Javascript WebSocket API example
+
+[source,javascript]
+----
+var wsUri = "ws://echo.websocket.org/";
+function testWebSocket() {
+        websocket = new WebSocket(wsUri);
+        websocket.onopen = function(evt) { onOpen(evt) };
+        websocket.onclose = function(evt) { onClose(evt) };
+        websocket.onmessage = function(evt) { onMessage(evt) };
+        websocket.onerror = function(evt) { onError(evt) }; }
+}
+function onOpen(evt) {
+        writeToScreen("CONNECTED");
+        doSend("WebSocket rocks");
+}
+function onClose(evt) {
+        writeToScreen("DISCONNECTED");
+}
+function onMessage(evt) {
+        writeToScreen('<span >RESPONSE: ' + evt.data+'</span>');
+        websocket.close();
+}
+----
+
+[NOTE.speaker]
+====
+----
+SLIDE 25 : Javascript API
+----
+
+====
+
+[[slide26]]
+[.topic]
+== Java API for WebSocket - JSR356
+
+* Server and Client Endpoint
+** 'Annotated' [detail]#`@ServerEndpoint` `@ClientEndpoint`#
+** 'Programmatic' [detail]#`Endpoint`#
+* Send and consume messages
+** 'all types' [detail]#`text, binary or control msg`#
+** 'as Java Objects' [detail]#`Encoders Decoders`#
+** send 'synchronously' / 'asynchronously'
+
+[NOTE.speaker]
+====
+----
+SLIDE 26 : Java API
+----
+*
+** take a POJO, put an annotation @ServerEndpoint
+** With programmatic endpoint, you can do Handshake negotiation
+*
+====
+
+[[slide27]]
+[.topic.source]
+== Java API - JSR356 - *@ServerEndpoint*
+
+[source,java]
+.+EchoServer.java+
+----
+import javax.websocket.OnMessage;
+import javax.websocket.ServerEndpoint;
+
+@ServerEndpoint("/echo")
+public class EchoServer {
+
+        @OnMessage
+        public String handleMessage(String message){
+                return "Thanks for the message: " + message;
+        }
+}
+
+----
+
+[NOTE.speaker]
+====
+----
+SLIDE 27 : Java API sample
+----
+* So let's take a look how does a very trivial example looks like.
+* I have my public class EchoServer over here and here I have a simple method which takes a parameter message, concatenate it and return a String paramter.
+* So How do I make it a WebSocket Server Endpoint ?
+** You just need to add that simple @ServerEndpoint annotation, you don't need deployment descriptor at all. Of course you nedd to specify the URI on where the endpoint is gonna be to listen, so here is the URI
+** Then when you have your server endpoint, you want to receive messages and then you want to call some of your business method and that method is being identify by adding @OnMessage annotation.
+
+* So here whenever a client calls this WebSocket Endpoint at the URI /echo, we call this businness method and it is a text payload that is being received, it is mapped to String, concatenate it and then return the response back.
+
+* We talk about that WebSocket is only one way messages, so effectively this API is allowing you to program standard Java application and under the wire, the server receive the request from client, it processes the response, generate a new message and send it from server to  client.
+
+====
+
+[[slide28]]
+[.topic]
+== Java API - JSR356 - Annotations
+
+[cols="2", options="autowidth"]
+|===
+|'@ServerEndpoint' &#160;
+| POJO -> Server Endpoint
+|'@ClientEndpoint'
+| POJO -> Client Endpoint
+|'@OnOpen'
+|Intercepts open events
+|'@OnMessage'
+|Intercepts message events
+|'@OnClose'
+|Intercepts close events
+|'@OnError'
+|Intercepts error events
+|===
+
+[NOTE.speaker]
+====
+----
+SLIDE 28 : JSR356 Annotations
+----
+* So let's take a look at the others Annotations that are available as part of the API itself
+* of course @ServerEndpoint
+** now if you want to convert your POJO to a client Endpoint, just put the @ClientEndpoint annotation
+** the differences between thoses 2 annotations is that Server Endpoint is listening to a URL so you have to specify the URI but as a Client Endpoint doesn't listen for a request, so there is no URI parameter for @ClientEndpoint annotation
+* We already talk about @OnMessage
+* and just like my Javascript API, I have callback handlers @OnOpen, @OnError, @OnClose.
+====
+
+[[slide29]]
+[.intro.topic]
+== *ad-editor* &#10; Demo & Code
+
+[NOTE.speaker]
+====
+----
+SLIDE 29 : Demo/Code
+----
+
+====
+
+[[slide30]]
+[.topic.recap]
+== Demo time
+
+[detail]#Asciidoctor via AsciidoctorJ and WebSocket#
+
+http://tinyurl.com/devnation2 [detail]##adeditor#
+
+image::collaborative-editor.gif[Collaborative-editor, 500, link="{demo-url}collaborative-editor.gif"]
+
+[NOTE.speaker]
+====
+----
+SLIDE 30 : Demo/Code
+----
+
+====
+
+
+[[slide31]]
+[.topic]
+== How does ad-editor work ?
+
+image::ad-editor-archi.png[ad-editor archi, 550, link="{demo-url}ad-editor-archi.png"]
+
+[NOTE.speaker]
+====
+----
+SLIDE 31 : Archi
+----
+* Explain the schema
+====
+
+
+
+[[slide32]]
+[.topic.source]
+== ad-editor : *API Javascript send Message -> Java API*
+
+[source,javascript]
+.+services.js+
+----
+app.factory('WebSocketService', function($window) {
+    ...
+    // Send an adoc source to see the generated output back
+    service.sendAdocSource = function(idAdoc, source, writer, backend) {
+        var wsUrl;
+        ...
+        var websocket = new WebSocket(wsUrl);
+
+        var jsonObj = {"type" : backend, "source" : source, "writer": writer};
+        websocket.send(JSON.stringify(jsonObj));
+    };
+    ...
+});
+----
+
+[NOTE.speaker]
+====
+----
+SLIDE 32 : Javascript API
+----
+* Here we are into an Angular service and we are using the Javascript WebSocket API in order to send the AsciiDoc to
+the server endpoint.
+====
+
+[[slide33]]
+[.topic.source]
+== ad-editor : *Java API  @ServerEndpoint*
+
+[source,java]
+----
+@ServerEndpoint(value = "/adoc/{adoc-id}",              <1>
+    decoders = { MessageDecoder.class },                <2>
+    encoders = { AsciidocMessageEncoder.class ... })    <3>
+public class WWSMADEndpoint {
+
+    static Set<Session> peers = Collections             <4>
+                                    .synchronizedSet(new HashSet<Session>());
+    @Inject @Backend("html5")
+    Event<AsciidocMessageEvent> html5Event;             <5>
+
+    @OnMessage
+    public void message(AsciidocMessage msg, Session session,             <6>
+                                    @PathParam("adoc-id") String adocId) {
+        AsciidocMessageEvent event =
+                        new AsciidocMessageEvent(session, adocId, msg);
+        ...
+        html5Event.fire(event);         <7>
+    }
+}
+----
+
+[NOTE.speaker]
+====
+----
+SLIDE 33 : Java API Endpoint
+----
+* <1> : OK so first I have the @ServerEndpoint annotation with the path URI and the adoc dash id parameter
+* <2> : we define a decoder which give us the possibility to work with an POJO which will be processing into
+JSON format with JSON-P API
+* <3> : we define an encoder in order to transform the JSON that you saw in the previous slide
+* <4> : in the number four you can see all the session represented all the peers
+* <5> : then we have
+====
+
+
+[[slide34]]
+[.topic.source]
+== ad-editor : *CDI and AsciidoctorJ*
+
+[source,java]
+.+AsciidocMessageConsumer.java+
+----
+public class AsciidocMessageConsumer {
+
+    @Inject
+    AsciidoctorProcessor processor; <1>
+
+    public void html5RenderedEvent(@Observes @Backend("html5")          <2>
+                                               AsciidocMessageEvent event){
+        OutputMessage html;
+        ...
+        html.setContent(
+            processor.renderAsDocument(event.msg.getAdocSource())); <3>
+
+        // send the new HTML version to all connected peers
+        WWSMADEndpoint.sendMessage(html, event.id);  <4>
+    }
+}
+----
+
+[NOTE.speaker]
+====
+----
+SLIDE 34 : CDI Consumer and AsciidoctorJ processor
+----
+* <1> We inject the AsciidoctorProcessor instance
+====
+
+[[slide35]]
+[.topic.source]
+== ad-editor : *API Java send -> API Javascript Consume*
+
+[source,java]
+----
+@ServerEndpoint(value = "/adoc/{adoc-id}",              <1>
+    decoders = { MessageDecoder.class }...                <2>
+public class WWSMADEndpoint {
+    ...
+    public static void sendMessage(Message msg, String adocId) {
+        for (Session session : peers) {
+            ...
+            session.getAsyncRemote().sendObject(msg);   <3>
+        }
+    }
+}
+----
+
+[source,javascript]
+----
+app.controller("adEditorCtrl", function($scope, WebSocketService) {
+    WebSocketService.subscribe(function(id, message) {
+        var obj = JSON.parse(message);
+        $scope.space[id].html5 = obj.data;
+    });
+});
+----
+
+[NOTE.speaker]
+====
+----
+SLIDE 35 : ad Endpoint
+----
+* Here we are into an Angular service and we are using the Javascript WebSocket API in order to send the AsciiDoc to
+the server endpoint.
+====
+
+[[slide36]]
+[.intro.topic]
+== What about a *Killer feature* ?
+
+[NOTE.speaker]
+====
+----
+SLIDE 36 : Killer feature
+----
+* OK so I'm pretty sure that you already love Asciidoctor, WebSocket and so ad-editor, am I right ?
+So do you want a killer feature ? yes, OK let's go...
+====
+
+[[slide37]]
+[.topic]
+== Asciidoctor *AST* Transformation
+
+[.incremental]
+* Asciidoctor -> *AST feature*...
+* easy to render *one part* of the document...
+*  and we can render *HTML5 slides*...
+* and we have the *WebSocket protocol*...
+
+[NOTE.speaker]
+====
+----
+SLIDE 37 : AST
+----
+* Remember that I said that Asciidoctor provide an AST (Abstract syntax tree) feature.
+* So that means that you can do a lot of things with the document
+like render only a selected part of it.
+* Plus Asciidoctor can render slides,
+* Plus; we have WebSocket which provide a full-duplex bi-directional protocol...
+====
+
+
+[[slide38]]
+[.topic.recap]
+== Demo-time
+http://tinyurl.com/devnation3
+
+SpaceID : 85
+
+[.statement]
+*Start your engine*
+
+[NOTE.speaker]
+====
+----
+SLIDE 38 : DEMO
+----
+* Prepare your smart phone : iPhone, Android, whatever you have
+* Prepare your laptop, your iPad
+* Access to this URL and connect with your name and the ID 85 and just wait
+** code asciidoctor for daft punk
+video::-SfXIRHbHKU[youtube, 640, 360, start=60, options=autoplay]
+====
+
+[[slide39]]
+[.topic]
+== What's next for ad-editor ?
+
+* GitHub workflow
+* PDF renderer
+* OAuth
+* Chat (audio, text)
+* ... Pull requests are welcome :)
+
+[NOTE.speaker]
+====
+----
+SLIDE 39 : What's next
+----
+* What's next for this project ?
+* a lot of new features will happen like GitHub workflow, feedback are welcome and pull request too
+====
+
+
+[[slide40]]
+[.topic]
+== Thanks to...
+
+* &#160; Alex Soto [detail]#@alexsotob#
+* &#160; &#160; &#160; &#160; Tugdual Grall [detail]#@tgrall#
+* &#160; Arun Gupta [detail]#@arungupta#
+* &#160; &#160; &#160; &#160; Dan Allen [detail]#@mojavelinux#
+* &#160; &#160; &#160; &#160; Sarah White [detail]#@carbonfray#
+
+[NOTE.speaker]
+====
+----
+SLIDE 40 : Thanks to
+----
+* Thanks to some guys who help me for this presentation : alex, dan, arun and tug
+====
+
+[[slide41]]
+[.ending]
+== Thank You
+
+http://github.com/mgreau/when-websocket-met-asciidoctor[when-websocket-met-asciidoctor on Github]
+
+[role="footer"]
+Maxime Gréau - @mgreau
+
+[NOTE.speaker]
+====
+----
+SLIDE 41 : Thank YOU
+----
+* Thank you. I hope that this presentation was great.
+* We have a couple of minutes, are there any questions ?
+=======
+
+* Questions :
+** WebSocket
+*** security => like servlet protocol + wss
+*** scalability => based on TCP connection so on open file limit on linux (1 Million)
+
+** adeditor
+*** why don't let the browser processing the AsciiDoc
+====

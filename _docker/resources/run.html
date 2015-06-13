@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Asciidoctor light image</title>
+    <style>
+      #count {
+        font: bold 150px arial;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <ul>
+      <li> <a href="/slides.html">Convert Slides (Refresh every 2 seconds)</a> <button onclick="javascript:convertToSlides();">RUN</button></li>
+      <li> <a href="/dzslides/shells/onstage.html#../../slides.html">On stage</a></li>
+      <li> <a href="/dzslides/shells/embedder.html#../../slides.html">Embedder</a></li>
+    </ul>
+
+    <div id="slides" />
+
+    <script>
+      var  convertToSlides = function() {
+        var wsUrl = 'ws://' + window.location.hostname + ':8080/slides-to-file.sh';
+        var ws = new WebSocket(wsUrl);
+        ws.onopen = function() {
+          document.body.style.backgroundColor = '#cfc';
+        };
+        ws.onclose = function() {
+          document.body.style.backgroundColor = "red";
+        };
+        ws.onmessage = function(event) {
+          document.getElementById('slides').textValue = event.data;
+        };
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,30 @@
+= Abstract text for DevNation WebSite
+
+== AsciiDoc: Create and Publish
+
+
+
+== Abstract / Videos to help
+
+. Help asciidoctor
+
+https://salt.bountysource.com/teams/asciidoctor
+
+. Devoxx France
+
+.https://www.parleys.com/tutorial/write-asciidoc-publish-everywhere[AsciiDoc DevoxxFrance 2015]
+----
+By using AsciiDoc, you're already following one of the best practices we recommend. You can write once and publish everywhere!
+
+AsciiDoc takes a lot of the pain out of writing documentation and keeps it DRY. As with any tool, you need to learn the best practices to use it effectively, such as:
+
+How to organize your documentation
+How to make your documentation approachable to contributors
+How to make your documentation easy to maintain
+What tools to use to simplify collaboration & maximize reuse
+I'll address some of the challenges we've come across writing documentation in AsciiDoc, offer a set of tips and recommendations that have helped us improve our writing flow and provide advice about how to keep presentation from leaking into your content...and why it matters.
+----
+
+. Jared Morgan Session
+
+https://vimeo.com/129621323[Video Jared Morgan]

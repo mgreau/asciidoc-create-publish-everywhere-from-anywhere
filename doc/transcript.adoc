@@ -1,0 +1,64 @@
+= Transcript
+
+== DevNation Boston 2015
+
+
+=== About me
+
+* my experience
+* me and Asciidoctor
+
+=== Today you know asciidoctor
+
+* history
+* contributors
+* projects
+* tools
+
+=== Big picture
+
+Asciidoc
+asciidoctor
+
+
+=== Syntax examples
+
+
+=== Doc == Code
+==== Like a developer, As a writer you want efficient tools!
+
+* IDE Eclipse (demo1)
+* Atom Editor (demo2)
+* GitHub images
+* Chrome/Firefox
+* Brackets
+
+==== As a writer, Like a developer you want container
+
+* Asciidoctor and Docker
+** demo official images
+** demo
+
+==== As a developer, you want to include asciidoctor in your build process
+
+* maven plugin
+* gradle plugin
+
+==== As a Technical Evangelist you want to produce slides
+
+==== As a product manager, you want to easily integrate asciidoctor in your product
+
+* example eXo
+
+=== As a CTO you want a workflow
+
+* Gihub -> jekyll -> CI
+*
+
+=== As a team you want to blog
+
+* 
+
+=== As a team you want to collaborate
+
+*

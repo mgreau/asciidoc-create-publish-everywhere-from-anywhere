@@ -1,0 +1,15 @@
+:sectids!:
+:experimental:
+:icons: font
+:imagesdir: ./images
+:source-highlighter: highlightjs
+:language: no-highlight
+:macros-on: subs="macros"
+:caption-off: caption=""
+:title-off: title="", caption=""
+:backend: dzslides
+:dzslides-aspect: 16-9
+:dzslides-style: ../../../assets/styles/devnation2014
+:dzslides-transition: fade
+:dzslides-fonts: family=Neuton:400,700,800,400italic|Cedarville+Cursive
+:dzslides-highlight: asciidoctor
