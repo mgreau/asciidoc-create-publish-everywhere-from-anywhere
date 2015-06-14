@@ -1,5 +1,6 @@
-[.topic]
-== As a *Product Manager*
+[.intro.topic]
+== As a *Product Manager*, you want
+
 
 [.topic]
 == As a Product Manager

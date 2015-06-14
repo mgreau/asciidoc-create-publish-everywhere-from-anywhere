@@ -1,14 +1,33 @@
-[[slide2]]
-[.topic]
-== About Me
 
-[.incremental]
-* Software Factory Manager #eXo Platform
-* IT Architect [detail]#Ministry for the Economy and Finance#
-* Author [detail]#Apache Maven (French Book)#
-* Technical Reviewer [detail]#WildFly - EE7#
-* Blog [detail]#http://mgreau.com[mgreau.com]#
-* Twitter [detail]#https://twitter.com/mgreau[@mgreau] &#35;adeditor#
+[.topic.bannerleft]
+== _About Me_
+
+[ {caption-off}]
+image::mgreau_profile.jpg[]
+
+* {point-label} Software Factory Manager
+** {point-label} eXo Platform
+* {point-label} Author [detail]#Apache Maven (French Book)#
+* {point-label} Speaker [detail]#DevNation, Devoxx France, JUG#
+* {point-label} Blog mgreau.com
+* {point-label} @mgreau icon:twitter[] icon:github[]
+
+
+
+[.topic.bannerleft]
+== _My story with Asciidoctor_
+
+[ {caption-off}]
+image::mgreau_profile.jpg[]
+
+* {point-label} Software Factory Manager
+** {point-label} eXo Platform
+* {point-label} Author [detail]#Apache Maven (French Book)#
+* {point-label} Speaker [detail]#DevNation, Devoxx France, JUG#
+* {point-label} Blog mgreau.com
+* {point-label} @mgreau icon:twitter[] icon:github[]
+
+
 
 [NOTE.speaker]
 ====

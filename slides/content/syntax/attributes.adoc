@@ -1,0 +1,14 @@
+* {asciidoctor} : Calls the processor
+* {asciidoctor-version} Version of the processor
+* {backend} Backend used to render document
+* {docdate} Last modified date
+* {docdatetime} Last modified date and time
+* {docdir} Name of document directory
+* {docfile} Name of document file
+* {doctime} Last modified time
+* {doctitle} The title of the document
+* {doctype} Document’s doctype (e.g., article)
+* {localdate}
+* {Local} date when rendered
+* {localdatetime} Local date and time when rendered
+* {localtime}

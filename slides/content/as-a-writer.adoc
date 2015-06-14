@@ -1,28 +1,54 @@
 [.intro.topic]
-== As a *Writer*, &#10; like Developers...
+== As a *Writer*, &#10; like _Developers_, you want...
 
-[NOTE.speaker]
-====
-----
-As a writer
-----
-As a writer, you want tools (like developers) to be efficient
-* IDE Eclipse or IntellIJ (demo)
-* Atom Editor (demo)
-* GitHub images
-* Chrome/Firefox
-* Brackets
-====
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Tools
+image::tools11.jpg[]
+
+
+[.topic.bannerleft]
+== _Tools_
+
+[ {caption-off}]
+image::container.jpg[]
+
+* {point-label} IDE Integration
+* {point-label} Eclipse / IntellIJ
+* {heart-label}  Editors
+** {heart-label}  Atom Editor (demo)
+** {heart-label}  Bracket Editor (demo)
+* {globe-label}  Browser integration
+** {globe-label}  Chrome
+** {globe-label}  Firefox
+
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Containers
+image::containers.jpg[]
+
+[.topic.bannerleft]
+== _Containers_
+
+[ {caption-off}]
+image::container.jpg[]
+
+* {point-label} Using `dockerfile` and calling `docker build .`
+* {point-label} `docker pull asciidoctor/docker-asciidocor`
 
 
 [.topic]
-== As a writer
+== _Code Repository_
 
-Like developers, you want
 
-* IDE Eclipse or IntellIJ (demo)
-* Atom Editor (demo)
-* GitHub images
-* Chrome/Firefox
-* Brackets
-* Like a developer you want container to use Asciidoctor
+image::quote_mojavelinux_doc_code.png[]
+
+[.topic]
+== &#160;
+
+"Now that _Asciidoctor_ is around, I can do truly amazing things with my _AsciiDoc_ source."
+-- Scott Chacon, author of Pro Git

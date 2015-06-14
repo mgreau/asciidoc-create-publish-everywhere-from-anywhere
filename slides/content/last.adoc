@@ -1,10 +1,10 @@
 [.ending]
 == Thank You
 
-http://github.com/mgreau/[AsciiDoc: Create & Publish Everywhere from Anywhere]
+AsciiDoc: Create & Publish Everywhere from Anywhere
 
 [role="footer"]
-Maxime Gréau - @mgreau
+icon:twitter[] @mgreau icon:github[]
 
 [NOTE.speaker]
 ====

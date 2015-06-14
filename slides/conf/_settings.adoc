@@ -1,7 +1,7 @@
 :sectids!:
 :experimental:
 :icons: font
-:imagesdir: ./images
+:imagesdir: /assets/images
 :source-highlighter: highlightjs
 :language: no-highlight
 :macros-on: subs="macros"
@@ -9,7 +9,15 @@
 :title-off: title="", caption=""
 :backend: dzslides
 :dzslides-aspect: 16-9
-:dzslides-style: ../../../assets/styles/devnation2014/devnation
+:dzslides-style: ../../../assets/styles/devnation
 :dzslides-transition: fade
-:dzslides-fonts: family=Neuton:400,700,800,400italic|Cedarville+Cursive
-:dzslides-highlight: asciidoctor
+:dzslides-fonts: family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,300,800
+:dzslides-highlight: tomorrow-night-bright
+:mock-label: pass:quotes,attributes[*Avoid In* icon:caret-right[]]
+:next-label: pass:quotes,attributes[*Siguiente* icon:caret-right[]]
+:start-label: pass:quotes,attributes[*Empezamos* icon:caret-right[]]
+:count-label: pass:quotes,attributes[ icon:angle-double-right[]]
+:point-label: pass:quotes,attributes[ icon:caret-right[]]
+:heart-label: pass:quotes,attributes[ icon:heart[]]
+:rocket-label: pass:quotes,attributes[ icon:rocket[]]
+:globe-label: pass:quotes,attributes[ icon:globe[]]

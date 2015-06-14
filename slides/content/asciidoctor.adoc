@@ -7,7 +7,7 @@ _AsciiDoc_ is... +
 lightweight *markup* +
 [.push2]#publishing *toolchain*#
 
-image::balloons.jpg[balloons, 170,role="pull-right"]
+image::container.jpg[balloons, 170,role="pull-right"]
 
 
 [NOTE.speaker]
