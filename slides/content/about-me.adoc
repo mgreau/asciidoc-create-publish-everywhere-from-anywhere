@@ -3,7 +3,7 @@
 == _About Me_
 
 [ {caption-off}]
-image::mgreau_profile.jpg[]
+image::mgreau-profile.jpg[]
 
 * {point-label} Software Factory Manager
 ** {point-label} eXo Platform
@@ -13,22 +13,13 @@ image::mgreau_profile.jpg[]
 * {point-label} @mgreau icon:twitter[] icon:github[]
 
 
-
+////
 [.topic.bannerleft]
 == _My story with Asciidoctor_
 
-[ {caption-off}]
-image::mgreau_profile.jpg[]
-
-* {point-label} Software Factory Manager
-** {point-label} eXo Platform
-* {point-label} Author [detail]#Apache Maven (French Book)#
-* {point-label} Speaker [detail]#DevNation, Devoxx France, JUG#
-* {point-label} Blog mgreau.com
-* {point-label} @mgreau icon:twitter[] icon:github[]
 
 
-
+////
 [NOTE.speaker]
 ====
 ----

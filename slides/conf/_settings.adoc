@@ -21,3 +21,4 @@
 :heart-label: pass:quotes,attributes[ icon:heart[]]
 :rocket-label: pass:quotes,attributes[ icon:rocket[]]
 :globe-label: pass:quotes,attributes[ icon:globe[]]
+:hashtag: #asciidoctor #tools

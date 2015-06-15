@@ -1,6 +1,15 @@
-[.intro.topic]
-== As a *Speaker*
+[.intro.topic.lumaxart]
+== As a *Speaker*, you want...
 
+[ {caption-off}, crole="lumaxart"]
+image::as-a.png[]
+
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Slides in HTML5
+image::slides.jpg[]
 
 [.topic]
 == As a speaker

@@ -33,6 +33,10 @@
  Blue ......... #4271ae
  Purple ....... #8959a8
 
+Orange: #2b2b4b
+Blue: rgb(252, 92, 71)
+Dark Blue: #191930
+
 */
 
 html, .view body {
@@ -101,8 +105,8 @@ font-size: 0.5em;
 section.title h1 strong {
   font-size: 1em;
   font-style: italic;
-  color: #fff;
-  background: rgb(252, 92, 71);
+  color: rgb(252, 92, 71);
+
 
 }
 
@@ -122,7 +126,7 @@ section.title footer {
 }
 
 .email {
-color: rgb(252, 92, 71);
+color: rgb(109,188,219);
 position: absolute;
 right: .5em;
 bottom: .5em;
@@ -152,12 +156,12 @@ section[class=topic] h2 {
 }
 
 section.title {
-  background: url('/assets/images/devnation2014/devnation2014_speakerdeck_16by9_speakertitle.jpg');
+  background: url('/assets/images/devnation2015-home.jpg');
   background-size: 100%;
 }
 
 section.topic {
-	background: url('/assets/images/devnation2014/devnation2014_speakerdeck_16by9_base.jpg');
+	background: url('/assets/images/devnation2015-bkgd-white.jpg');
 	background-size: 100%;
 }
 
@@ -167,7 +171,12 @@ section.logos {
 }
 
 section.intro {
-	background: url('/assets/images/devnation2014/devnation2014_speakerdeck_16by9_base_blue.jpg');
+	background: url('/assets/images/devnation2015-bkgd-blue.jpg');
+	background-size: 100%;
+}
+
+section.intro2 {
+	background: url('/assets/images/devnation2015-bkgd-orange.jpg');
 	background-size: 100%;
 }
 
@@ -191,7 +200,7 @@ section.intro.alt h2 {
 
 section.intro h1 strong,
 section.intro h2 strong {
-  color: #2b2b4b;
+  /*color: #2b2b4b;*/
   font-size: 1.51em;
   line-height: .8em;
 }
@@ -273,7 +282,7 @@ section.question p strong {
 }
 
 section.ending {
-  background: url('/assets/images/devnation2014/devnation2014_speakerdeck_16by9_base_dark_blue.jpg');
+  background: url('/assets/images/devnation2015-bkgd-blue.jpg');
   background-size: 100%;
   color: #fff;
 }
@@ -555,7 +564,7 @@ figcaption.band {
   color: #fff;
   right: 0;
   text-align: left;
-  background-color: rgba(109,188,219,0.75);
+  background-color: rgba(25,25,48,0.85);
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
   padding-left: .5em;
   line-height: 1.5em;
@@ -801,13 +810,13 @@ section.fit > img {
 /* new style */
 
 .bannerleft img {
-  top: 35px;
+  top: 65px;
   left: 10px;
   width: 300px;
-  border: 2px solid black;
   height: auto;
   vertical-align: middle;
   display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 .bannerleft p {
@@ -906,11 +915,17 @@ right: 20px;
 .hashtag {
   font-weight: bold;
   position: absolute;
-  right: 10px;
-  bottom: 10px;
 }
 
 .band figure > img, figure > video, figure > embed {
   top: 15px;
+
+}
+
+.lumaxart figure > img {
+  top: 250px;
+  left: 400px;
+  width: 35%;
+  height: 35%;
 
 }

@@ -1,10 +1,13 @@
-= AsciiDoc: Create & Publish everywhere from anywhere
-Maxime GREAU <http://mgreau.com[@mgreau]>
+= *AsciiDoc*: Create & Publish *everywhere* from *anywhere*!
+Maxime GREAU <http://mgreau.com[@mgreau icon:twitter[] icon:github[]]>
 v1.0, June 13, 2015
 include::conf/_settings.adoc[]
 
 //me
 include::content/about-me.adoc[]
+
+//introduction
+include::content/intro.adoc[]
 
 //asciidoctor
 include::content/asciidoctor.adoc[]

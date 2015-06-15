@@ -1,13 +1,16 @@
+[.intro.topic.lumaxart]
+== AsciiDoc is...
+
+[ {caption-off}, crole="lumaxart"]
+image::user-cool.png[]
 
 [.topic]
 == &#160;
 
 [.statement]
 _AsciiDoc_ is... +
-lightweight *markup* +
-[.push2]#publishing *toolchain*#
-
-image::container.jpg[balloons, 170,role="pull-right"]
+text-based *writing format* +
+[.push2]#for *authoring* content#
 
 
 [NOTE.speaker]
@@ -39,3 +42,18 @@ writing simple sectionless documents consisting only of a preamble.
 NOTE: The abstract, preface, appendix, bibliography, glossary and
 index section titles are significant (_specialsections_).
 ----
+
+[.intro.topic.lumaxart]
+== Asciidoctor is...
+
+[ {caption-off}, crole="lumaxart"]
+image::user-cool.png[]
+
+[.topic.lumaxart]
+== &#160;
+
+"Now that _Asciidoctor_ is around, I can do truly amazing things with my _AsciiDoc_ source."
+-- Scott Chacon, author of Pro Git
+
+[ {caption-off}, crole="lumaxart"]
+image::user-cool.png[]

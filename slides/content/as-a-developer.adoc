@@ -1,5 +1,8 @@
-[.intro.topic]
-== As a *developer*
+[.intro.topic.lumaxart]
+== As a *Developer*, you want...
+
+[ {caption-off}, crole="lumaxart"]
+image::as-a.png[]
 
 [NOTE.speaker]
 ====
@@ -19,18 +22,9 @@ As a developer, you want to use asciidoctor in your build process:
 * Maven
 * Gradle
 
-//709x857
-[.topic.bannerleft]
-== _Build_
-
-[ {caption-off}]
-image::container.jpg[]
-
-* {point-label} Using `dockerfile` and calling `docker build .`
-* {point-label} `docker pull tomcat`
 
 [.source.topic.code-small]
-== Write In-Container Test
+== Easily use Asciidoctor
 
 [source, java]
 .PaymentTest.java
@@ -46,32 +40,5 @@ public class PaymentTest {
 
 }
 ----
-<1> Arquillian Runner
-<2> Shrinkwrap creates deployable file programmatically
-
-
-[.source.topic.code-small]
-== Write As Client Test
-
-[source, java]
-.HelloWorldServletTest.java
-----
-@RunWith(Arquillian.class)
-public class HelloWorldServletTest {
-
-  @Deployment(testable=false) //<1>
-  public static WebArchive create() {
-      return ShrinkWrap.create(WebArchive.class, "hello.war")
-      .addClass(HelloWorldServlet.class);
-  }
-
-  @Test
-  public void readContent(@ArquillianResource URL base) throws IOException { //<2>
-    URL url = new URL(base, "HelloWorld"); //<3>
-    String response = readResponse(url);
-    assertThat(response, is("..."));
-  }
-----
 <1> Sets test as `RunInClient` mode
 <2> Gets context _URL_ with `@ArquillianResource`
-<3> Opens a connection

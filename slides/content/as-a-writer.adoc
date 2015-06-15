@@ -1,19 +1,22 @@
-[.intro.topic]
-== As a *Writer*, &#10; like _Developers_, you want...
+[.intro.topic.lumaxart]
+== As a *Writer* &#10; &#10; &#10; you want...
+
+[ {caption-off}, crole="lumaxart"]
+image::as-a.png[]
 
 [.topic.band]
 == !
 
 [{caption-off}, crole="band"]
 .Tools
-image::tools11.jpg[]
+image::tools.jpg[]
 
 
 [.topic.bannerleft]
 == _Tools_
 
 [ {caption-off}]
-image::container.jpg[]
+image::tools.jpg[]
 
 * {point-label} IDE Integration
 * {point-label} Eclipse / IntellIJ
@@ -35,7 +38,7 @@ image::containers.jpg[]
 == _Containers_
 
 [ {caption-off}]
-image::container.jpg[]
+image::containers.jpg[]
 
 * {point-label} Using `dockerfile` and calling `docker build .`
 * {point-label} `docker pull asciidoctor/docker-asciidocor`
@@ -47,8 +50,10 @@ image::container.jpg[]
 
 image::quote_mojavelinux_doc_code.png[]
 
-[.topic]
-== &#160;
 
-"Now that _Asciidoctor_ is around, I can do truly amazing things with my _AsciiDoc_ source."
--- Scott Chacon, author of Pro Git
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Write Blog Posts
+image::containers.jpg[]

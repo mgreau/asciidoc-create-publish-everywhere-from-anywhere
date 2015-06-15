@@ -1,0 +1,12 @@
+[.intro.intro2.topic.lumaxart]
+== Yes, we will write the doc!
+
+[ {caption-off}, crole="lumaxart"]
+image::read-the-doc.png[]
+
+
+[.intro.intro2.topic.lumaxart]
+== Where is the doc?
+
+[ {caption-off}, crole="lumaxart"]
+image::read-the-doc.png[]

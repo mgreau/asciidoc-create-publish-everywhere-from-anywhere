@@ -1,9 +1,10 @@
 [.intro.topic]
-== As a *Team*
+== As a *Team*, you want...
 
 
-[.topic]
-== As a Team
+[.topic.band]
+== !
 
-* Blog : HubPress
-* Collaborate: adoc-editor
+[{caption-off}, crole="band"]
+.To Collaborate in Realtime
+image::adoc-editor-screenshots.png[]
