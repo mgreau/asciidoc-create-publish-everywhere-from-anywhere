@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Asciidoctor light image</title>
+    <title>Asciidoctor light container</title>
     <style>
-      #count {
-        font: bold 150px arial;
-        margin: auto;
-        padding: 10px;
-        text-align: center;
-      }
+
     </style>
   </head>
   <body>
@@ -17,6 +12,7 @@
       <li> <a href="/slides.html">Convert Slides (Refresh every 2 seconds)</a> <button onclick="javascript:convertToSlides();">RUN</button></li>
       <li> <a href="/dzslides/shells/onstage.html#../../slides.html">On stage</a></li>
       <li> <a href="/dzslides/shells/embedder.html#../../slides.html">Embedder</a></li>
+      <li> <a href="/slides-standalone.html">Download</a></li> <button onclick="javascript:convertToOneFile();">RUN</button>
     </ul>
 
     <div id="slides" />
@@ -32,6 +28,22 @@
           document.body.style.backgroundColor = "red";
         };
         ws.onmessage = function(event) {
+          console.log(event);
+          document.getElementById('slides').textValue = event.data;
+        };
+      }
+      //convert slides into one HTML standalone file
+      var  convertToOneFile = function() {
+        var wsUrl = 'ws://' + window.location.hostname + ':8080/slides-to-export.sh';
+        var ws = new WebSocket(wsUrl);
+        ws.onopen = function() {
+          document.body.style.backgroundColor = '#cfc';
+        };
+        ws.onclose = function() {
+          document.body.style.backgroundColor = "red";
+        };
+        ws.onmessage = function(event) {
+          console.log(event);
           document.getElementById('slides').textValue = event.data;
         };
       }
