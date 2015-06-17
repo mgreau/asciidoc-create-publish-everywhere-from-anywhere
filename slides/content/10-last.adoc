@@ -4,6 +4,10 @@
 * asciidoctor.org
 * github.com/asciidoctor
 
+[.topic]
+== Publier partout !
+
+image::publier-partout.png[Publier, 400]
 
 [.topic.band]
 == !
@@ -13,7 +17,7 @@
 image::support-asciidoctor.png[]
 
 [.intro.intro2.topic]
-== Questions?
+== Credits
 
 
 
@@ -26,14 +30,3 @@ _Create & Publish Everywhere from Anywhere_
 
 [role="footer"]
 icon:twitter[] @mgreau icon:github[]
-
-[NOTE.speaker]
-====
-----
-SLIDE 41 : Thank YOU
-----
-* Thank you. I hope that this presentation was great.
-* We have a couple of minutes, are there any questions ?
-=======
-
-====

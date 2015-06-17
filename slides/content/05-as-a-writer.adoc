@@ -13,26 +13,30 @@ image::tools.jpg[]
 
 
 [.topic.bannerleft]
-== _Tools_
+== Tools
 
 [ {caption-off}]
 image::tools.jpg[]
 
 * {point-label} IDE Integration
-* {point-label} Eclipse / IntellIJ
-* {heart-label}  Editors
-** {heart-label}  Atom Editor (demo)
-** {heart-label}  Bracket Editor (demo)
-* {globe-label}  Browser integration
-** {globe-label}  Chrome
-** {globe-label}  Firefox
+** {point-label} Eclipse / IntellIJ
+*  {point-label}  Editors
+** {heart-label}  Atom Editor
+** {point-label}  Bracket Editor
+* {point-label}  Browser integration
+** {heart-label}  Chrome
+** {point-label}  Firefox
 
 [.topic]
-== TODO
+== _Chrome extension_
 
-* add 1 slide Eclipse screenshot
-* add 1 slide Atom screenshot + demo?
-* add 1 slide Chrome/Firefox screenshot + demo?
+image::chrome-asciidoc-preview.jpg[Chrome, 450]
+
+[.topic]
+== _https://atom.io/packages/asciidoc-preview[Atom preview]_
+
+image::atom-asciidoc-preview.jpg[Atom, 550]
+
 
 [.topic.band]
 == !
@@ -57,32 +61,38 @@ image::containers.jpg[]
 .Repositories
 image::containers.jpg[]
 
+[.topic]
+== _Repositories_
+
+
+image::quote-mojavelinux.png[Dan, 250]
+
+
+image::code-diff.png[GitHub, 500, role="pull-right"]
+
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Blog Posts
+image::hubpress_admin.png[]
+
 [.topic.bannerleft]
-== _Documentation Repository_
+== _http://hubpress.io[HubPress.io]_
 
 [ {caption-off}]
-image::quote-mojavelinux.png[]
+image::hubpress-io.png[Hubpress, 500]
 
-* {point-label} Like code, documentation files deserve repositories!
-* TODO: add github diff example
-
-[.topic.band]
-== !
-
-[{caption-off}, crole="band"]
-.to Write Blog Posts
-image::containers.jpg[]
-
-[.topic]
-== TODO
-
-* add 1 slide HubPress screenshot + demo
+* {point-label} Your static blog in 3 clics
+** based on Asciidoctor.JS
+* {point-label} 1000 stars on GitHub
+* {point-label} 1500 forks
 
 [.topic.band]
 == !
 
 [{caption-off}, crole="band"]
-.to Write Books
+.Books
 image::containers.jpg[]
 
 [.topic]

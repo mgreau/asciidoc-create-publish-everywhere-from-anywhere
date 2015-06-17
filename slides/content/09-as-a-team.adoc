@@ -1,0 +1,18 @@
+[.intro.topic.lumaxart]
+== As a *Team*, you want...
+
+[ {caption-off}, crole="lumaxart"]
+image::as-a.png[]
+
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Realtime collaboration
+image::team-collaborate.png[]
+
+
+[.topic]
+== _http://adoc-editor.io[adoc-editor.io]_
+
+image::adoc-editor-screenshots.png[adoc-editor.io, 580]

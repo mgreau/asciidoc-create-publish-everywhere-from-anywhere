@@ -1,0 +1,28 @@
+[.intro.topic.lumaxart]
+== AsciiDoc is...
+
+[ {caption-off}, crole="lumaxart"]
+image::user-cool.png[]
+
+[.topic]
+== &#160;
+
+[.statement]
+AsciiDoc is a +
+ +
+*text-based* *writing* *format* +
+for +
+[.push2]#*authoring* *content*#
+
+[.topic.source]
+== AsciiDoc sample
+
+[source, asciidoc,subs=-callouts]
+....
+include::snippets/sample.adoc[]
+....
+
+[.topic.source]
+== AsciiDoc sample
+
+image::asciidoc-sample.png[AsciiDoc, 650]

@@ -1,0 +1,25 @@
+[.intro.intro2.topic.lumaxart]
+== Yes, we will write the doc!
+
+[ {caption-off}, crole="lumaxart"]
+image::swear.png[]
+
+
+[.intro.topic.lumaxart]
+== Where is the fuc*$#* doc?
+
+[ {caption-off}, crole="lumaxart"]
+image::read-the-doc.png[]
+
+
+[.ending]
+== Thank You
+
+
+*AsciiDoc:* +
+_Create & Publish Everywhere from Anywhere_ +
+
+icon:github[] icon:twitter[] @mgreau
+
+[role="footer"]
+Monday, June 22 4:00PM (Room 202)

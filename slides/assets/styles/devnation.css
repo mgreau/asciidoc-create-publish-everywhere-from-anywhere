@@ -189,7 +189,7 @@ section.intro h1,
 section.intro h2 {
   color: #fff;
   /**text-transform: lowercase;*/
-  line-height: .7em;
+  line-height: 1em;
   text-align: left;
   font-size: 4em;
 }
@@ -622,7 +622,7 @@ section > dl,
 section > ul.graffiti,
 section > p {
   position: relative;
-  top: 50%;
+  top: 30%;
   -webkit-transform: translate(0, -50%);
   -moz-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);

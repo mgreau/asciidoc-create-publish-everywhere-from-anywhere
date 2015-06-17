@@ -4,27 +4,31 @@ v1.0, June 13, 2015
 include::conf/_settings.adoc[]
 
 //me
-include::content/about-me.adoc[]
+include::content/01-about-me.adoc[]
 
 //introduction
-include::content/intro.adoc[]
+include::content/02-intro.adoc[]
+
+//asciidoc
+include::content/03-asciidoc.adoc[]
 
 //asciidoctor
-include::content/asciidoctor.adoc[]
+include::content/04-asciidoctor.adoc[]
 
 //as a writer
-include::content/as-a-writer.adoc[]
+include::content/05-as-a-writer.adoc[]
 
 //as a developer
-include::content/as-a-developer.adoc[]
+include::content/06-as-a-developer.adoc[]
 
 //as a speaker
-include::content/as-a-speaker.adoc[]
+include::content/07-as-a-speaker.adoc[]
 
-//as a Product Manager
-include::content/as-a-product-manager.adoc[]
+////
+include::content/08-as-a-product-manager.adoc[]
+////
 
 //as a Team you want to publish blog post
-include::content/as-a-team.adoc[]
+include::content/09-as-a-team.adoc[]
 
-include::content/last.adoc[]
+include::content/10-last.adoc[]

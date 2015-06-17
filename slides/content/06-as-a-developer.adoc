@@ -4,18 +4,6 @@
 [ {caption-off}, crole="lumaxart"]
 image::as-a.png[]
 
-[.topic.band]
-== !
-
-[{caption-off}, crole="band"]
-.Build integration
-image::containers.jpg[]
-
-[.topic]
-== Build integration
-
-* Maven
-* Gradle
 
 [.topic.band]
 == !
@@ -43,3 +31,32 @@ public class PaymentTest {
 ----
 <1> Sets test as `RunInClient` mode
 <2> Gets context _URL_ with `@ArquillianResource`
+
+
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Build integration
+image::containers.jpg[]
+
+[.topic]
+== Build integration
+
+* Maven
+* Gradle
+
+
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Workflow
+image::containers.jpg[]
+
+
+[.topic]
+== Workflow
+
+* Jekyll
+* Docker

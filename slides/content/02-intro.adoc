@@ -5,8 +5,8 @@
 image::swear.png[]
 
 
-[.intro.intro2.topic.lumaxart]
-== Where is the doc?
+[.intro.topic.lumaxart]
+== Where is the fuc*$#* doc?
 
 [ {caption-off}, crole="lumaxart"]
 image::read-the-doc.png[]

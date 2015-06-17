@@ -13,13 +13,6 @@ image::mgreau-profile.jpg[]
 * {point-label} @mgreau icon:twitter[] icon:github[]
 
 
-////
-[.topic.bannerleft]
-== _My story with Asciidoctor_
-
-
-
-////
 [NOTE.speaker]
 ====
 ----
@@ -30,15 +23,15 @@ SLIDE 1 : Introduction
 * My name is Maxime Gréau.
 * I'm French, and I will do my best so you can understand me.
 
-* I'm here to speak about Java EE 7, WebSocket, Asciidoctor, and other technologies.
-* I will show you how all those technologies can fit together in order to do a Real-time Collaborative Editor for AsciiDoc.
+* I'm here to speak about AsciiDoc, Asciidoctor and the tooling around.
+* As a writer, as a developer, as speaker, as a team, I will show you how Asciidoctor can help you.
 
 ----
 SLIDE 2 : Overview
 ----
 * So what about me.
 
-* I work for the French Ministry for the Economy and Finance in France.
+* I work for eXo Platform as Software Factory Manager
 * I'm a Book Author, I wrote a book about Apache Maven 3.
 * I reviewed a book about WildFly and Java EE 7.
 
