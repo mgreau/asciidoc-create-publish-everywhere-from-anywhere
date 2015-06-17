@@ -2,10 +2,11 @@
 
 == AsciiDoc: Create and Publish Everywhere from Anywhere
 
-* As a writer, like a developer,
-* As a writer, like a developer,
+* As a Writer, like a developer,
+* As a Developer
+* As a Speaker
+* As a Product Manager
 * As a Team you want to collaborate in realtime
-* As a Team you want to publish blog post
 
 
 == Abstract / Videos to help

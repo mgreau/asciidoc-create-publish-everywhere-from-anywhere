@@ -13,10 +13,12 @@
 
 == Compose
 
-docker-compose -p devnation -f _docker/slides.yml build
+. docker-compose -f _docker/slides.yml build
+. docker-compose -f _docker/slides.yml up
+. open http://{docker-machine-ip}:8080/
 
-== Docker
+== OR Docker
 
 docker run -it -v $(pwd)/slides:/documents/ docker_asciidoctor
 
-asciidoctor -T $/documents/asciidoctor-backends/slim/dzslides slides.adoc
+asciidoctor -T /documents/asciidoctor-backends/slim/dzslides slides.adoc
