@@ -27,6 +27,13 @@ image::tools.jpg[]
 ** {globe-label}  Chrome
 ** {globe-label}  Firefox
 
+[.topic]
+== TODO
+
+* add 1 slide Eclipse screenshot
+* add 1 slide Atom screenshot + demo?
+* add 1 slide Chrome/Firefox screenshot + demo?
+
 [.topic.band]
 == !
 
@@ -43,17 +50,42 @@ image::containers.jpg[]
 * {point-label} Using `dockerfile` and calling `docker build .`
 * {point-label} `docker pull asciidoctor/docker-asciidocor`
 
+[.topic.band]
+== !
 
-[.topic]
-== _Code Repository_
+[{caption-off}, crole="band"]
+.Repositories
+image::containers.jpg[]
 
+[.topic.bannerleft]
+== _Documentation Repository_
 
-image::quote_mojavelinux_doc_code.png[]
+[ {caption-off}]
+image::quote-mojavelinux.png[]
 
+* {point-label} Like code, documentation files deserve repositories!
+* TODO: add github diff example
 
 [.topic.band]
 == !
 
 [{caption-off}, crole="band"]
-.Write Blog Posts
+.to Write Blog Posts
 image::containers.jpg[]
+
+[.topic]
+== TODO
+
+* add 1 slide HubPress screenshot + demo
+
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.to Write Books
+image::containers.jpg[]
+
+[.topic]
+== TODO
+
+* add publisher list

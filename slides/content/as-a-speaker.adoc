@@ -16,4 +16,5 @@ image::slides.jpg[]
 
 * DZslides
 * RevealJS
-* Docker light container + Asciidoctor + dzslides
+* ...
+* Demo Docker light container Asciidoctor/dzslides

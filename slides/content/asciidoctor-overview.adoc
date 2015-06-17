@@ -1,0 +1,39 @@
+
+[ditaa]
+....
+                                                       +---------------+
+                              +------------------------+  Extensions   |
+                              |                        |       &       |
+                              v                        | Converter API |
+        outputs    /----------+--\ Via JRuby           +------+--------+
+      +------------| Asciidoctor |-------+                    |
+      |            |   (Ruby)    |       |                    |
+      v            \-------------/       |                    |
+ +----------+          |                 |     +--------------+
+ |   HTML   |          | Via Opal        |     |
+ | Docbook  |          v                 v     v
+ |----------| /--------+------\    /-----------+-\
+ | Slides   | |               |    |             |     +------------+
+ |          | | AsciidoctorJS |    | Asciidoctor |---->+ Groovy DSL +---------+
+ | Revealjs | | (Javascript)  |    |    (JVM)    |     +------------+         |
+ | Deck.js  | |               |    |             |                            |
+ +----------+ \---------------/    \-------------/                            |
+     |              |     | |             |    |   (pre-alpha) +---------+    |
+     | (alpha)      |     | |             |    +-------------->+ Leanpub +    |
+     v              v     | |             v                    +---------+    |
+ +----+----+  +-----+---+ | |      /---------------\                          |
+ | Pdf     |  | Browser | | |      |    Gradle     +<----Dynamic extensions<--+
+ | Epub    |  | plugins | | |      |    Maven      |
+ | Packt   |  |---------| | |      |    Ant        +<--Tested Docs
+ | Mallard |  | Chrome  | | |      |    SBT        |
+ | Latex   |  | Firefox | | |      +---------------+
+ +---------+  +---------+ | +----->|    Grunt      |
+                          v        \---------------/
+                  +----------+
+                  | Editors  |
+                  |----------|
+                  |  Atom    |
+                  | Brackets |
+                  +----------+
+
+....

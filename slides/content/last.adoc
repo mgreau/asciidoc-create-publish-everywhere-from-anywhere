@@ -1,13 +1,16 @@
 [.intro.intro2.topic]
 == Asciidoctor
 
+* asciidoctor.org
+* github.com/asciidoctor
+
 
 [.topic.band]
 == !
 
 [{caption-off}, crole="band"]
 .We need your support
-image::support_asciidoctor.png[]
+image::support-asciidoctor.png[]
 
 [.intro.intro2.topic]
 == Questions?

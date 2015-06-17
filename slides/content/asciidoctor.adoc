@@ -13,20 +13,8 @@ text-based *writing format* +
 [.push2]#for *authoring* content#
 
 
-[NOTE.speaker]
-====
-----
-SLIDE 8 : AsciiDoc
-----
-* So What is AsciiDoc?
-
-* AsciiDoc is two things:
-** Plain-text format for notes, articles, documentation, books, e-books, etc.
-** Text processor and toolchain for translating AsciiDoc documents into various formats like PDF, HTML and others.
-====
-
 [.topic.source]
-== AsciiDoc: *Lightweight markup*
+== TODO: update example
 
 [source, asciidoc]
 ----
@@ -48,6 +36,25 @@ index section titles are significant (_specialsections_).
 
 [ {caption-off}, crole="lumaxart"]
 image::user-cool.png[]
+
+[.topic]
+== TODO
+
+* add 1 slide with text to describe Asciidoctor
+* add 1 slide with diagram 2015
+* add 1 slide with number of projects/contributors....
+
+[.intro.intro2.topic.lumaxart]
+== AsciiDoc VS Asciidoctor
+
+[.topic]
+== TODO
+
+* add array / diagram to explain
+
+[.intro.intro2.topic.lumaxart]
+== Authors love Asciidoctor
+
 
 [.topic.lumaxart]
 == &#160;

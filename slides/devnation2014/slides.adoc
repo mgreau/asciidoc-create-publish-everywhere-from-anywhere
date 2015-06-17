@@ -1,7 +1,58 @@
-= test
-include::_settings.adoc[]
+[[when-websocket-met-asciidoctor]]
+[.topic]
+= Real-time *collaborative* *editor* for *AsciiDoc* &#160;&#160;&#160; _When WebSocket met Asciidoctor_
+Maxime GREAU <http://mgreau.com[@mgreau]>
+v1.0, March 24, 2014
+:hashtag:  #Asciidoctor #WebSocket #JavaEE7
+:copyright: CC BY-SA 2.0
+:website: http://asciidoctor.org
+:dzslides-aspect: 16-9
+:icons: font
+:dzslides-style: devnation
+:dzslides-fonts: family=Open+Sans:400,700,200,300
+:dzslides-transition: fade
+:dzslides-highlight: asciidoctor
+:language: highlight
+:source-highlighter: highlightjs
+:imagesdir: ./images
 
 
+[[slide2]]
+[.topic]
+== About Me
+
+[.incremental]
+* IT Architect [detail]#Ministry for the Economy and Finance#
+* Author [detail]#Apache Maven (French Book)#
+* Technical Reviewer [detail]#WildFly - EE7#
+* Blog [detail]#http://mgreau.com[mgreau.com]#
+* Twitter [detail]#https://twitter.com/mgreau[@mgreau] &#35;adeditor#
+
+[NOTE.speaker]
+====
+----
+SLIDE 1 : Introduction
+----
+* Hi, thanks for coming.
+* It's an honor to be here. Thank you to the DevNation team.
+* My name is Maxime Gréau.
+* I'm French, and I will do my best so you can understand me.
+
+* I'm here to speak about Java EE 7, WebSocket, Asciidoctor, and other technologies.
+* I will show you how all those technologies can fit together in order to do a Real-time Collaborative Editor for AsciiDoc.
+
+----
+SLIDE 2 : Overview
+----
+* So what about me.
+
+* I work for the French Ministry for the Economy and Finance in France.
+* I'm a Book Author, I wrote a book about Apache Maven 3.
+* I'm currently reviewing a book about WildFly and Java EE 7.
+* Follow this conference live via twitter: use the hashtag #adeditor.
+* I have already posted via Twitter 2 URLs for the demonstration.
+
+====
 
 [[slide3]]
 [.topic.logos]

@@ -2,7 +2,7 @@
 == Yes, we will write the doc!
 
 [ {caption-off}, crole="lumaxart"]
-image::read-the-doc.png[]
+image::swear.png[]
 
 
 [.intro.intro2.topic.lumaxart]

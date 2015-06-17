@@ -5,5 +5,7 @@
 [.topic]
 == As a Product Manager
 
-Inlcude asciidoctor into eXo Platform
-@ Devoxx France hackergarten
+* TODO:
+** include DevoxxFR hackergarten picture
+** add asciidoctorJ code example in eXo
+** add screenshot OR demo eXo

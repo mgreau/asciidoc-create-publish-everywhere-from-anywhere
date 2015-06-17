@@ -4,27 +4,28 @@
 [ {caption-off}, crole="lumaxart"]
 image::as-a.png[]
 
-[NOTE.speaker]
-====
-----
-As a developer
-----
-As a developer, you want to use asciidoctor in your build process:
-* maven-plugin
-* gradle-plugin
-* ...
-====
+[.topic.band]
+== !
 
+[{caption-off}, crole="band"]
+.Build integration
+image::containers.jpg[]
 
 [.topic]
-== As a developer
+== Build integration
 
 * Maven
 * Gradle
 
+[.topic.band]
+== !
+
+[{caption-off}, crole="band"]
+.Cool API
+image::containers.jpg[]
 
 [.source.topic.code-small]
-== Easily use Asciidoctor
+== TODO add asciidoctorJ code
 
 [source, java]
 .PaymentTest.java
