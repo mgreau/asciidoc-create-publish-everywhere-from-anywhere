@@ -77,7 +77,6 @@ image::repository-brand.jpg[]
 [.topic]
 == _Repositories_
 
-
 image::quote-mojavelinux.png[Dan, 250,  role="pull-left"]
 
 image::code-diff.png[GitHub, 600, role="pull-right"]
@@ -89,19 +88,7 @@ image::code-diff.png[GitHub, 600, role="pull-right"]
 .Blog Posts
 image::blog-brand.jpg[]
 
-[.topic.bannerleft]
-== _http://hubpress.io[HubPress]_
-
-[ {caption-off}]
-image::hubpress_admin.png[Hubpress, 500]
-
-* {point-label} HubPressIO {twitter}
-* {point-label} HubPress {github}
-* {point-label} *Blog Easily* with GitHub Pages ad AsciiDoc using HubPress
-** {point-label-detail} [detail]#based on Asciidoctor.JS#
-* {point-label} Popular in a few days
-** {point-label-detail} [detail]#2000 {star} / 1500 {fork}#
-
+include::tools/hubpress.adoc[]
 
 [.topic.band]
 == !
@@ -113,6 +100,6 @@ image::publisher-brand.jpg[]
 [.topic]
 == Published Books written with AsciiDoc
 
-image::groovy-book.png[Groovy, 250]
+image::groovy-book.jpg[Groovy, 250]
 
-image::web-book.png[Web Book, 250, role="pull-right"]
+image::web-book.jpg[Web Book, 250, role="pull-right"]

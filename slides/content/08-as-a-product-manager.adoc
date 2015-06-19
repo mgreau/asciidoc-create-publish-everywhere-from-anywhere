@@ -5,6 +5,6 @@
 [.topic]
 == Integrate Asciidoctor in your project
 
-image::exo-asciidoctor-devoxx.png[eXo Platform Asciidoctor, 250]
+image::exo-asciidoctor-devoxx.jpg[eXo Platform Asciidoctor, 200]
 
-image::exo-asciidoctor-devoxx.png[eXo Platform Asciidoctor, 250, role="pull-right"]
+image::exo-asciidoc.jpg[eXo Platform Asciidoctor, 480, role="pull-right"]

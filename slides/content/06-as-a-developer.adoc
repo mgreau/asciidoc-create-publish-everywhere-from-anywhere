@@ -25,7 +25,7 @@ public class MyConverter {
   public void convertToHTML() {
 
      Asciidoctor asciidoctor = create(); //<2>
-     String html = asciidoctor.convert(
+     String html = asciidoctor.convert(   //<3>
           "Writing AsciiDoc is _easy_!",
          new HashMap<String, Object>());
      System.out.println(html);
@@ -34,29 +34,33 @@ public class MyConverter {
 ----
 <1> Import required classes
 <2> Create the instance
+<3> Convert this AsciiDoc String to HTML
 
 
 [.source.topic.code-small]
 == AsciidoctorJS (Javascript)
 
 [source, javascript]
+.Include asciidoctor.JS file
 ----
 <script src="bower_components/asciidoctor.js/dist/asciidoctor-all.min.js"/>
 ----
 
 [source, javascript]
+.Configure and convert
 ----
 
 var content = "http://asciidoctor.org[*Asciidoctor*] " +
     "running on http://opalrb.org[_Opal_] " +
     "brings AsciiDoc to the browser!";
 
-var options = Opal.hash2(['doctype', 'attributes'], {doctype: 'inline', attributes: ['showtitle']});
-var html = Opal.Asciidoctor.$convert(content, options);
+var options = Opal.hash2(['doctype', 'attributes'], {doctype: 'inline', attributes: ['showtitle']}); //<1>
+var html = Opal.Asciidoctor.$convert(content, options); //<2>
 
 console.log(html);
 ----
-
+<2> Define attributes
+<3> Convert your AsciiDoc to HTML
 
 
 [.topic.band]
@@ -69,8 +73,6 @@ image::build-brand.jpg[]
 [.topic]
 == Build integration
 
-* {point-label} Maven
-** {point-label-detail} [detail]#asciidoctor-maven-plugin#
 
 [source,text]
 ----
@@ -80,7 +82,8 @@ image::build-brand.jpg[]
     │       ├── html.adoc             │       ├── html.html
     └── index.adoc                    └── index.html
 ----
-
+* {point-label} Maven
+** {point-label-detail} [detail]#asciidoctor-maven-plugin#
 * {point-label} Gradle
 * {point-label} SBT
 
