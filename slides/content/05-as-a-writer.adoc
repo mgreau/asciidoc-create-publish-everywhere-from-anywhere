@@ -62,8 +62,8 @@ asciidoctor/docker-asciidoctor`
 * {point-label} Convert file(s)
 ** {point-label} `asciidoctor-pdf sample.adoc`
 
-[.topic]
-== _PDF Output sample_
+[.topic.recap]
+== _PDF sample_
 
 image::pdf-output.png[PDF sample, 350]
 
