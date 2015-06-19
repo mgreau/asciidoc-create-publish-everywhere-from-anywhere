@@ -1,7 +1,7 @@
 :sectids!:
 :experimental:
 :icons: font
-:imagesdir: assets/images
+:imagesdir: ./assets/images
 :source-highlighter: highlightjs
 :language: no-highlight
 :macros-on: subs="macros"
