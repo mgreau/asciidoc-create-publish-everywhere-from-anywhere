@@ -21,14 +21,14 @@ include::content/05-as-a-writer.adoc[]
 //as a developer
 include::content/06-as-a-developer.adoc[]
 
-//as a speaker
-include::content/07-as-a-speaker.adoc[]
-
-////
-include::content/08-as-a-product-manager.adoc[]
-////
-
 //as a Team you want to publish blog post
 include::content/09-as-a-team.adoc[]
 
+//as a speaker
+include::content/07-as-a-speaker.adoc[]
+
+//as a product manager
+include::content/08-as-a-product-manager.adoc[]
+
+//conclude
 include::content/10-last.adoc[]

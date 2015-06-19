@@ -81,10 +81,12 @@ image::build-brand.jpg[]
     └── index.adoc                    └── index.html
 ----
 
-* {point-label} Gralde
+* {point-label} Gradle
 * {point-label} SBT
 
 
+
+////
 [.topic.band]
 == !
 
@@ -99,3 +101,4 @@ image::workflow-brand.jpg[]
 * {point-label} Jekyll
 ** {point-label} GitHub case study
 * {point-label} Create YOUR OWN!
+////

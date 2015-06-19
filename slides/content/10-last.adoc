@@ -16,10 +16,6 @@ image::publier-partout.png[Publier, 400]
 .We need your support
 image::support-asciidoctor.png[]
 
-[.intro.intro2.topic]
-== Credits
-
-
 
 [.ending]
 == Thank You

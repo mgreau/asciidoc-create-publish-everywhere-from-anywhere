@@ -3,9 +3,8 @@
 
 
 [.topic]
-== As a Product Manager
+== Integrate Asciidoctor in your project
 
-* TODO:
-** include DevoxxFR hackergarten picture
-** add asciidoctorJ code example in eXo
-** add screenshot OR demo eXo
+image::exo-asciidoctor-devoxx.png[eXo Platform Asciidoctor, 250]
+
+image::exo-asciidoctor-devoxx.png[eXo Platform Asciidoctor, 250, role="pull-right"]

@@ -1,1 +1,19 @@
-//Show adoc-editor.io project
+[.topic]
+== _http://adoc-editor.io[adoc-editor.io]_
+
+image::adoc-editor-screenshots.png[adoc-editor.io, 580]
+
+[.topic.bannerleft]
+== _http://adoc-editor.io[adoc-editor.io]_
+
+
+[ {caption-off}]
+image::adoc-editor-screenshots.png[adoc editor, 500]
+
+* {point-label} https://twitter.com/adoc_editor_io[adoc_editor_io] {twitter}
+* {point-label} https://github.com/adoc-editor[adoc-editor] {github}
+* {point-label} *Realtime Collaborative Editor* for Documentation Project
+** {point-label-detail} [detail]#Work on your AsciiDoc file with other users#
+** {point-label-detail} [detail]#Don't worry about network connection troubles#
+** {point-label-detail} [detail]#Push your documentation to GitHub#
+** {point-label-detail} [detail]#based on *Asciidoctor.JS* & *AsciidoctorJ*#

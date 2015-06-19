@@ -11,8 +11,4 @@ image::as-a.png[]
 .Collaborate anywhere
 image::collaborate-brand.jpg[]
 
-
-[.topic]
-== _http://adoc-editor.io[adoc-editor.io]_
-
-image::adoc-editor-screenshots.png[adoc-editor.io, 580]
+include::tools/adoc-editor.adoc[]
