@@ -12,12 +12,12 @@ image::as-a.png[]
 image::tools.jpg[]
 
 
-[.topic]
+[.topic.recap]
 == _Chrome extension_
 
 image::chrome-asciidoc-preview.jpg[Chrome, 450]
 
-[.topic]
+[.topic.recap]
 == _https://atom.io/packages/asciidoc-preview[Atom preview]_
 
 image::atom-asciidoc-preview.jpg[Atom, 550]
