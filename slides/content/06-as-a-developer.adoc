@@ -9,28 +9,54 @@ image::as-a.png[]
 == !
 
 [{caption-off}, crole="band"]
-.Cool API
-image::containers.jpg[]
+.Cool APIs
+image::api-brand.jpg[]
 
 [.source.topic.code-small]
-== TODO add asciidoctorJ code
+== AsciidoctorJ API (Java)
 
 [source, java]
-.PaymentTest.java
 ----
-@RunWith(Arquillian.class) //<1>
-public class PaymentTest {
+import static org.asciidoctor.Asciidoctor.Factory.create;
+import org.asciidoctor.Asciidoctor; //<1>
 
-  @Deployment public static JavaArchive createDeployment() { //<2>
-    return ShrinkWrap.create(JavaArchive.class)
-            .addPackages(true, "org.superbiz")
-            .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
+public class MyConverter {
+
+  public void convertToHTML() {
+
+     Asciidoctor asciidoctor = create(); //<2>
+     String html = asciidoctor.convert(
+          "Writing AsciiDoc is _easy_!",
+         new HashMap<String, Object>());
+     System.out.println(html);
   }
-
 }
 ----
-<1> Sets test as `RunInClient` mode
-<2> Gets context _URL_ with `@ArquillianResource`
+<1> Import required classes
+<2> Create the instance
+
+
+[.source.topic.code-small]
+== AsciidoctorJS (Javascript)
+
+[source, javascript]
+----
+<script src="bower_components/asciidoctor.js/dist/asciidoctor-all.min.js"/>
+----
+
+[source, javascript]
+----
+
+var content = "http://asciidoctor.org[*Asciidoctor*] " +
+    "running on http://opalrb.org[_Opal_] " +
+    "brings AsciiDoc to the browser!";
+
+var options = Opal.hash2(['doctype', 'attributes'], {doctype: 'inline', attributes: ['showtitle']});
+var html = Opal.Asciidoctor.$convert(content, options);
+
+console.log(html);
+----
+
 
 
 [.topic.band]
@@ -38,13 +64,25 @@ public class PaymentTest {
 
 [{caption-off}, crole="band"]
 .Build integration
-image::containers.jpg[]
+image::build-brand.jpg[]
 
 [.topic]
 == Build integration
 
-* Maven
-* Gradle
+* {point-label} Maven
+** {point-label-detail} [detail]#asciidoctor-maven-plugin#
+
+[source,text]
+----
+    ├── docs                          ├── docs
+    │   ├── examples.adoc             │   ├── examples.html
+    │   └── examples            =>    │   └── examples
+    │       ├── html.adoc             │       ├── html.html
+    └── index.adoc                    └── index.html
+----
+
+* {point-label} Gralde
+* {point-label} SBT
 
 
 [.topic.band]
@@ -52,11 +90,12 @@ image::containers.jpg[]
 
 [{caption-off}, crole="band"]
 .Workflow
-image::containers.jpg[]
+image::workflow-brand.jpg[]
 
 
 [.topic]
-== Workflow
+== _Workflow_
 
-* Jekyll
-* Docker
+* {point-label} Jekyll
+** {point-label} GitHub case study
+* {point-label} Create YOUR OWN!

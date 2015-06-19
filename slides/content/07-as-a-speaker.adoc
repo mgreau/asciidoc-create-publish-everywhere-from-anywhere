@@ -12,9 +12,11 @@ image::as-a.png[]
 image::slides.jpg[]
 
 [.topic]
-== As a speaker
+== _As a speaker_
 
-* DZslides
-* RevealJS
-* ...
-* Demo Docker light container Asciidoctor/dzslides
+* {point-label} DZSlides
+** {point-label-detail} [detail]#asciidoctor-slides-container#
+** `git clone` && `docker-compose up` icon:check-circle[role=light]
+* {point-label} Revealjs
+* {point-label} Deck.js
+* {point-label} Bespoke.js

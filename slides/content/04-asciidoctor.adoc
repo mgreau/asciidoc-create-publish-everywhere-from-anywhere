@@ -16,9 +16,9 @@ and +
 
 
 [.topic]
-== TODO
+== Asciidoctor Overview 2015
 
-* add 1 slide with diagram 2015
+image::asciidoctor-overview-2015.png[Overview, 500]
 
 
 
@@ -26,13 +26,13 @@ and +
 == AsciiDoc VS Asciidoctor
 
 [.topic]
-== _AsciiDoc vs Asciidoctor_
+== _AsciiDoc_ VS _Asciidoctor_
 
 [cols="^,^"]
 |===
 
 
-a| icon:file-text[4x, role=orange]
+a| icon:file-text[4x]
 a| icon:wrench[4x, role=illuminate]
 
 | AsciiDoc
@@ -44,7 +44,7 @@ a| icon:wrench[4x, role=illuminate]
 
 
 [.intro.intro2.topic.lumaxart]
-== Authors love Asciidoctor
+== Authors icon:heart[x2] Asciidoctor
 
 
 [.topic.lumaxart]
@@ -55,8 +55,3 @@ a| icon:wrench[4x, role=illuminate]
 
 [ {caption-off}, crole="lumaxart"]
 image::user-cool.png[]
-
-
-
-[.intro.intro2.topic.lumaxart]
-== DOC = CODE

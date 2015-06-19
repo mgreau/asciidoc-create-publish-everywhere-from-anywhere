@@ -8,8 +8,8 @@ image::as-a.png[]
 == !
 
 [{caption-off}, crole="band"]
-.Realtime collaboration
-image::team-collaborate.png[]
+.Collaborate anywhere
+image::collaborate-brand.jpg[]
 
 
 [.topic]

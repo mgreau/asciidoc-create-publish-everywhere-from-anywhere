@@ -7,10 +7,12 @@ image::mgreau-profile.jpg[]
 
 * {point-label} Software Factory Manager
 ** {point-label} eXo Platform
-* {point-label} Author [detail]#Apache Maven (French Book)#
-* {point-label} Speaker [detail]#DevNation, Devoxx France, JUG#
+* {point-label} Author
+** {point-label-detail} [detail]#Apache Maven (French Book)#
+* {point-label} Speaker
+** {point-label-detail} [detail]#DevNation, Devoxx France, JUG#
 * {point-label} Blog mgreau.com
-* {point-label} @mgreau icon:twitter[] icon:github[]
+* {point-label} @mgreau {twitter} {github}
 
 
 [NOTE.speaker]

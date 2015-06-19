@@ -12,21 +12,6 @@ image::as-a.png[]
 image::tools.jpg[]
 
 
-[.topic.bannerleft]
-== Tools
-
-[ {caption-off}]
-image::tools.jpg[]
-
-* {point-label} IDE Integration
-** {point-label} Eclipse / IntellIJ
-*  {point-label}  Editors
-** {heart-label}  Atom Editor
-** {point-label}  Bracket Editor
-* {point-label}  Browser integration
-** {heart-label}  Chrome
-** {point-label}  Firefox
-
 [.topic]
 == _Chrome extension_
 
@@ -36,6 +21,23 @@ image::chrome-asciidoc-preview.jpg[Chrome, 450]
 == _https://atom.io/packages/asciidoc-preview[Atom preview]_
 
 image::atom-asciidoc-preview.jpg[Atom, 550]
+
+[.topic.bannerleft]
+== Tools
+
+[ {caption-off}]
+image::tools.jpg[]
+
+* {point-label} IDE Integration
+** {point-label-detail} [detail]#IntellIJ#
+** {point-label-detail} [detail]#Eclipse#
+*  {point-label}  Editors
+** {point-label-detail}  [detail]#Atom Editor#
+** {point-label-detail}  [detail]#Bracket Editor#
+* {point-label}  Browser integration
+** {point-label-detail} [detail]#Chrome#
+** {point-label-detail} [detail]#Firefox#
+
 
 
 [.topic.band]
@@ -51,51 +53,66 @@ image::containers.jpg[]
 [ {caption-off}]
 image::containers.jpg[]
 
-* {point-label} Using `dockerfile` and calling `docker build .`
-* {point-label} `docker pull asciidoctor/docker-asciidocor`
+[.incremental]
+* {point-label-detail} Get the full image +
+ `docker pull +
+asciidoctor/docker-asciidoctor`
+* {point-label-detail} Start a container `docker run -it -v ${pwd}:/documents/ +
+asciidoctor/docker-asciidoctor`
+* {point-label} Convert file(s)
+** {point-label} `asciidoctor-pdf sample.adoc`
+
+[.topic]
+== _PDF Output sample_
+
+image::pdf-output.png[PDF sample, 350]
 
 [.topic.band]
 == !
 
 [{caption-off}, crole="band"]
 .Repositories
-image::containers.jpg[]
+image::repository-brand.jpg[]
 
 [.topic]
 == _Repositories_
 
 
-image::quote-mojavelinux.png[Dan, 250]
+image::quote-mojavelinux.png[Dan, 250,  role="pull-left"]
 
-
-image::code-diff.png[GitHub, 500, role="pull-right"]
+image::code-diff.png[GitHub, 600, role="pull-right"]
 
 [.topic.band]
 == !
 
 [{caption-off}, crole="band"]
 .Blog Posts
-image::hubpress_admin.png[]
+image::blog-brand.jpg[]
 
 [.topic.bannerleft]
-== _http://hubpress.io[HubPress.io]_
+== _http://hubpress.io[HubPress]_
 
 [ {caption-off}]
-image::hubpress-io.png[Hubpress, 500]
+image::hubpress_admin.png[Hubpress, 500]
 
-* {point-label} Your static blog in 3 clics
-** based on Asciidoctor.JS
-* {point-label} 1000 stars on GitHub
-* {point-label} 1500 forks
+* {point-label} HubPressIO {twitter}
+* {point-label} HubPress {github}
+* {point-label} *Blog Easily* with GitHub Pages ad AsciiDoc using HubPress
+** {point-label-detail} [detail]#based on Asciidoctor.JS#
+* {point-label} Popular in a few days
+** {point-label-detail} [detail]#2000 {star} / 1500 {fork}#
+
 
 [.topic.band]
 == !
 
 [{caption-off}, crole="band"]
-.Books
-image::containers.jpg[]
+.Publishers
+image::publisher-brand.jpg[]
 
 [.topic]
-== TODO
+== Publish a Book in AsciiDoc
 
-* add publisher list
+image::groovy-book.png[Groovy, 250]
+
+image::web-book.png[Web Book, 250, role="pull-right"]
