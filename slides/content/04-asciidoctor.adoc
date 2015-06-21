@@ -8,11 +8,11 @@ image::user-cool.png[]
 == &#160;
 
 [.statement]
-Asciidoctor is a +
+Asciidoctor is... +
  +
-*fast* *open source* *text processor* +
+a *text processor* +
 and +
-[.push2]#*publishing* *toolchain*#
+[.push2]#*publishing* *toolchain* for AsciiDoc#
 
 
 [.topic]
@@ -23,10 +23,10 @@ image::asciidoctor-overview-2015.png[Overview, 500]
 
 
 [.intro.intro2.topic.lumaxart]
-== AsciiDoc VS Asciidoctor
+== AsciiDoc vs. Asciidoctor
 
 [.topic]
-== _AsciiDoc_ VS _Asciidoctor_
+== _AsciiDoc_ vs. _Asciidoctor_
 
 [cols="^,^"]
 |===

@@ -16,4 +16,4 @@ image::adoc-editor-screenshots.png[adoc editor, 500]
 ** {point-label-detail} [detail]#Work on your AsciiDoc file with other users#
 ** {point-label-detail} [detail]#Don't worry about network connection troubles#
 ** {point-label-detail} [detail]#Push your documentation to GitHub#
-** {point-label-detail} [detail]#based on *Asciidoctor.JS* & *AsciidoctorJ*#
+** {point-label-detail} [detail]#based on *Asciidoctor.js* & *AsciidoctorJ*#

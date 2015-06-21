@@ -8,9 +8,9 @@ image::user-cool.png[]
 == &#160;
 
 [.statement]
-AsciiDoc is a +
+AsciiDoc is... +
  +
-*text-based* *writing* *format* +
+a *text-based* *writing* *format* +
 for +
 [.push2]#*authoring* *content*#
 

@@ -38,10 +38,10 @@ public class MyConverter {
 
 
 [.source.topic.code-small]
-== AsciidoctorJS (Javascript)
+== Asciidoctor.js (Javascript)
 
 [source, javascript]
-.Include asciidoctor.JS file
+.Include asciidoctor.js file
 ----
 <script src="bower_components/asciidoctor.js/dist/asciidoctor-all.min.js"/>
 ----
@@ -49,12 +49,11 @@ public class MyConverter {
 [source, javascript]
 .Configure and convert
 ----
-
 var content = "http://asciidoctor.org[*Asciidoctor*] " +
     "running on http://opalrb.org[_Opal_] " +
     "brings AsciiDoc to the browser!";
 
-var options = Opal.hash2(['doctype', 'attributes'], {doctype: 'inline', attributes: ['showtitle']}); //<1>
+var options = Opal.hash({doctype: 'inline', attributes: ['showtitle']}); //<1>
 var html = Opal.Asciidoctor.$convert(content, options); //<2>
 
 console.log(html);

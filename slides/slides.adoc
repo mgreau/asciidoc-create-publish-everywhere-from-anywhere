@@ -1,4 +1,4 @@
-= *AsciiDoc*: Create & Publish *everywhere* from *anywhere*!
+= *AsciiDoc* : Create and publish *everywhere* from *anywhere*
 Maxime GREAU <http://mgreau.com[@mgreau icon:twitter[] icon:github[]]>
 v1.0, June 13, 2015
 include::conf/_settings.adoc[]

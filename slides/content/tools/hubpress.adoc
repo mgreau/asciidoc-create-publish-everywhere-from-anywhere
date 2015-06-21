@@ -7,6 +7,6 @@ image::hubpress_admin.png[Hubpress, 500]
 * {point-label} HubPressIO {twitter}
 * {point-label} HubPress {github}
 * {point-label} *Blog Easily* with GitHub Pages ad AsciiDoc using HubPress
-** {point-label-detail} [detail]#based on Asciidoctor.JS#
+** {point-label-detail} [detail]#based on Asciidoctor.js#
 * {point-label} Popular in a few days
 ** {point-label-detail} [detail]#2000 {star} / 1500 {fork}#

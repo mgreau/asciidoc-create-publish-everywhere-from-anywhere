@@ -63,7 +63,7 @@ asciidoctor/docker-asciidoctor`
 ** {point-label} `asciidoctor-pdf sample.adoc`
 
 [.topic.recap]
-== _PDF sample_
+== _PDF output_
 
 image::pdf-output.png[PDF sample, 350]
 
