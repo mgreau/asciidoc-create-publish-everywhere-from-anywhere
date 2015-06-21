@@ -1,0 +1,112 @@
+= Notes
+
+Notes for each slides
+
+[NOTE.speaker]
+====
+----
+SLIDE 1 : Introduction
+----
+* Hi, thanks for coming.
+* It's an honor to be here. Thank you to the DevNation team.
+* My name is Maxime Gréau.
+* I'm French, and I will do my best so you can understand me.
+
+* I'm here to speak about Java EE 7, WebSocket, Asciidoctor, and other technologies.
+* I will show you how all those technologies can fit together in order to do a Real-time Collaborative Editor for AsciiDoc.
+====
+
+
+[NOTE.speaker]
+====
+----
+SLIDE 13 : Overview
+----
+Asciidoctor is available for many programming languages, including:
+* Ruby (MRI, JRuby, Rubinius)
+* JavaScript (using Asciidoctor.js, transpiled from Ruby using Opal)
+* Java, Groovy and any other language that runs on the JVM (using AsciidoctorJ, a Java API that leverages JRuby underneath)
+====
+
+
+[NOTE.speaker]
+====
+----
+SLIDE 22 : Tools
+----
+* Live HTML preview of AsciiDoc powered by Asciidoctor.js is available in:
+** Browsers (Extension for Chrome, Add-on for Firefox)
+** Text editors (Package for Atom, Extension for Brackets)
+** IDEs (Eclipse, IntelliJ, NetBeans)
+====
+
+
+
+[NOTE.speaker]
+====
+----
+SLIDE 08 :  AsciiDoc
+----
+* So AsciiDoc is 3 things
+** concise: you can see what it looks like
+** consistent: if you do 1 thing like add an image, you do a video,
+you can just replace image by video and it's OK, otherwise the syntax is the same............................................................................
+it's natural
+............................................................................
+
+** semantic: lot of opportunity to add information that will can't be displayed and can be used by tools
+or in publishing
+====
+
+
+[NOTE.speaker]
+====
+----
+SLIDE 09 : Sample AsciiDoc
+----
+* So the beautiful thing about AsciiDoc is that it's clear
+* You can see the hash of content
+* no XML text or superflux thing that you don't care about
+* look at this slide, easy to read
+====
+
+[NOTE.speaker]
+====
+----
+SLIDE 10 : Output Sample AsciiDoc
+----
+* And you get really professional output
+* That's just a suggestion, you can have any output you want
+====
+
+[NOTE.speaker]
+====
+----
+SLIDE 15 : AsciiDoc VS Asciidoctor
+----
+* AsciiDoc is a syntax for writing documentation, very similar to Markdown but much richer, similar because it's also a plain text format.
+* Then we have Asciidoctor, the biggest piece, beacause it's the parser and all of the tools
+* in the future we may have other implementation than Asciidoctor
+* Asciidoc is a language like ruby language, java language
+====
+
+
+
+[NOTE.speaker]
+====
+----
+SLIDE 48 : Publier partout
+----
+* all others format: EPUB, PDF, they are very important but they are output format, display, presentation, format
+* the content/source code is the most important thing
+* with Asciidoc, you can get all those formats
+====
+
+
+NOTE.speaker]
+====
+----
+SLIDE 49 : Support
+----
+*
+====
