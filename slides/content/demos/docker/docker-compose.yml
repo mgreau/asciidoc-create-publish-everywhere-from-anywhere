@@ -1,6 +1,6 @@
-devnation2015demopdf:
-  build: .
+devnation2015pdf:
+  image: asciidoctor/docker-asciidoctor
   volumes:
     - .:/documents/
   working_dir: /documents
-  command: /bin/bash 
+  command: /bin/bash

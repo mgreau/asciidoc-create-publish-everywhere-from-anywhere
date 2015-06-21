@@ -2,10 +2,14 @@
 
 [source, bash]
 --
-cd ~/PBR/asciidoc-create-publish-everywhere-from-anywhere/slides/content/demos/docker
-docker ps
+cd ~/demo-docker
+docker-machine ls
+docker-machine start devnation-2015
 eval "$(docker-machine env devnation-2015)"
+docker ps
 docker images
   asciidoctor/docker-asciidoctor   latest              d52a24e9d4da        2 weeks ago         1.152 GB
-  
---
+
+docker run -it -v ~/demo-docker:/documents asciidoctor/docker-asciidoctor
+
+asciidoctor-pdf sample-demo-pdf.adoc 
