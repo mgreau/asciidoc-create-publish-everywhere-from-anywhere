@@ -1,0 +1,43 @@
+= Demo HubPress
+
+This demo is available on Youtube at:
+
+* URL Youtube
+
+== Requirements
+
+. WIFI Connection
+. No existing HubPress fork on my github account
+. One blog post sample adoc file
+
+== Steps
+
+. Connect to http://mgreau.com/my-blog5
+.. Show a 404 page
+. Go to http://hubpress.io
+.. show the homepage
+.. scroll down to the page and click to fork
+. On GitHub page
+.. fork the repo, choose @mgreau
+.. rename the repo + ghpages
+... go to settings,
+.... choose gh-pages as default branch
+.... rename to my-blog5
+. Configure the repo
+.. go to hubpress folder > config.json
+.. edit the file and add username & repository name
+. Go  back to mgreau.com/my-blog5 and refresh
+.. OK you have your homepage
+. Now you want to customize
+.. go to the admin part: http://mgreau.com/my-blog5/hubpress
+.. login with GitHub credentials
+.. go to settings and customize title  and logo
+.. create a first post, copy the sample post
+.. update the adoc content to show the rendering
+.. save the adoc and show the content on GitHub
+.. go back to hubpress admin and publish
+.. show on github the HTML5 pushed
+.. refresh the webpage to show the blog online
+.. go back to admin and add a video tag
+.. publish again
+.. show the blog post 

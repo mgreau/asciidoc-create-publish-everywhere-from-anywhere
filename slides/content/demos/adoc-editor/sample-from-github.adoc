@@ -1,0 +1,18 @@
+= Hello Devoxx France
+Doc Writer <doc@example.com>
+
+A simple http://asciidoc.org[AsciiDoc] document.
+
+== Introduction
+
+A paragraph followed by a code example from *AsciidoctorJ*.
+
+.Converting an AsciiDoc String
+[source, java]
+----
+String html = asciidoctor.convert(
+    "Writing AsciiDoc is _easy_!",
+    new HashMap<String, Object>());
+
+System.out.println(html); 'Hello, World!'
+----

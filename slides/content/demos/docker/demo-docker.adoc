@@ -1,0 +1,11 @@
+= How to use the docker container
+
+[source, bash]
+--
+cd ~/PBR/asciidoc-create-publish-everywhere-from-anywhere/slides/content/demos/docker
+docker ps
+eval "$(docker-machine env devnation-2015)"
+docker images
+  asciidoctor/docker-asciidoctor   latest              d52a24e9d4da        2 weeks ago         1.152 GB
+  
+--

@@ -1,0 +1,6 @@
+devnation2015demopdf:
+  build: .
+  volumes:
+    - .:/documents/
+  working_dir: /documents
+  command: /bin/bash 

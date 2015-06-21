@@ -1,0 +1,31 @@
+= Demo adoc-editor
+
+The demo is available on youtube with 2 videos:
+
+* Invite a user and Collaborate on the same file
+* Collaborate with a user on the same file and Push to GitHub
+
+== Requirements
+
+. WIFI Connection
+. 2 browsers to handle one Github account by browser
+.. Chrome for @mgreau Account
+.. Firefox for @sgreau account
+. 2 files
+.. a sample.adoc file to show how to collaborate
+.. a sample-from-github.adoc file to collaborate + push to github
+. a remote file on Github, to import and work on
+
+
+== Example GitHub adoc file
+
+The file to use is on GitHub at:
+
+* http://github.com/mgreau/slides/devnation2015.adoc
+
+== Scenarii
+
+. With Chrome
+.. open http://adoc-editor.io/demo
+.. sign in via GitHub with @mgreau
+.. open a sample.adoc
