@@ -1,5 +1,5 @@
 
-[.topic.bannerleft]
+[.topic-date.bannerleft]
 == _About Me_
 
 [ {caption-off}]

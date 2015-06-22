@@ -100,6 +100,6 @@ image::publisher-brand.jpg[]
 [.topic]
 == Published Books written with AsciiDoc
 
-image::groovy-book.jpg[Groovy, 250]
+image::pro-git-book.jpg[Pro Git 2, 250]
 
 image::web-book.jpg[Web Book, 250, role="pull-right"]

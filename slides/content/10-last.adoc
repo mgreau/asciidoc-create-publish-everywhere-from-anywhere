@@ -13,8 +13,8 @@ image::publier-partout.png[Publier, 400]
 == !
 
 [{caption-off}, crole="band"]
-.We need your support
-image::support-asciidoctor.png[]
+.https://salt.bountysource.com/teams/asciidoctor[We need your support]
+image::support-asciidoctor.jpg[]
 
 
 [.ending]
