@@ -1,0 +1,13 @@
+= Asciidoctor
+:toc-placement: preamble
+
+An introduction to http://asciidoc.org[AsciiDoc].
+
+== First OK seems to work
+
+* item 1
+* second item
+* item 2
+
+
+puts "Hello, World!"

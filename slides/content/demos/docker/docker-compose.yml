@@ -1,6 +1,0 @@
-devnation2015pdf:
-  image: asciidoctor/docker-asciidoctor
-  volumes:
-    - .:/documents/
-  working_dir: /documents
-  command: /bin/bash

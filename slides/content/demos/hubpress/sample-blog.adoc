@@ -1,0 +1,57 @@
+= Blog Easily with GitHub Pages and AsciiDoc using HubPress
+
+== Summary
+
+There's a new way to blog using GitHub Pages and AsciiDoc:
+
+* No PC required
+** Blog on your tablet or phablet.
+** No software to install.
+** An internet connection is all you need.
+* No Gemfiles to install and configure.
+* No Git commands to master.
+
+http://hubpress.io/[HubPress] lets you free yourself from heavy configuration, provides a real-time editing environment, rich social media configuration, and a variety of baked-in styles. But most importantly, it is one of the only forkable blog offerings that has made the wise decision to use the https://github.com/asciidoctor/asciidoctor.js[AsciiDoctor ] Javascript port to provide tech bloggers far greater control over how they structure blog posts.
+
+== Why AsciiDoc?
+
+If you love writing about technology, and love to make complex instructions with code samples and detailed tables, you would have already found that you have to make a fair few sacrifices with Markdown posts.
+
+Enter AsciiDoc (or more accurately, AsciiDoctor).
+
+AsciiDoctor -- which was championed by former Red Hat alumni https://github.com/mojavelinux[Dan Allen] -- builds upon the already fantastic http://asciidoc.org/[AsciiDoc] by adding a toolchain and various compatibility layers.
+
+How this affects blog writers is that you don't have to kludge your way around the deficiencies of Markdown, and you can get on with the task of writing rich blog posts with complex procedures and code samples.
+
+== Getting Started
+
+If you want to give HubPress a try you need to have the following:
+
+* A free https://github.com[GitHub] Account
+* A device with a web browser.
+
+== Installing HubPress
+
+Once you have a GitHub account, continue to the https://github.com/HubPress/hubpress.io/blob/master/README.adoc[HubPress Setup Instructions] and follow the steps to set up the blog.
+
+The terse instructions are:
+
+. Fork the HubPress repository.
+. Make minor changes to the forked repository.
+. Log onto the HubPress management console.
+. Customise your blog to your liking.
+. Write and publish your first blog post in AsciiDoc.
+
+== Updating HubPress
+
+Because HubPress is hosted on GitHub, you can do an update by pulling down the latest changes from the HubPress master repository.
+
+To learn how to do this correctly (there's a trick to it the first time you pull changes from upstream), you can watch this video I created explaining the process.
+
+video::KCylB780zSM[youtube]
+
+== Embedding Images
+
+You don't even need to use a Git client or app to push images to your blog. Just use GitHub Issues, or link to issues from your cloud backup provider. Watch this video to learn how to do this.
+
+video::KoaGU91qJv8[youtube]

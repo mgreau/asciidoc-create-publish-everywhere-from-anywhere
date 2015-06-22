@@ -1,6 +1,12 @@
 * Link to the logo
-** *here*
+** *copy paste logo*
+
+http://hubpress.io/img/freeze/logo.png
+
+
 
 
 * Link to the video tag
-** _here_
+** _copy paste_
+
+video::KCylB780zSM[youtube]
